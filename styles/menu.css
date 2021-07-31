@@ -1,0 +1,62 @@
+.navbar-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar-menu li {
+  display: inline-block;
+}
+
+#menu a {
+  text-decoration: none;
+}
+
+#menu li {
+  padding: 1em;
+  width: 7em;
+  text-align: center;
+}
+
+#menu li.menu-brand {
+  width: 14em !important;
+}
+
+/* Change the color of links on hover */
+#menu li.menu-link:hover {
+  background-color: #04AA6D;
+}
+
+/* dropdown menu is shown */
+@media (max-width:576px) {
+  .menu-toggle~#menu li {
+    display: none;
+  }
+
+  .menu-toggle~#menu li:first-child {
+    display: inline-block;
+  }
+
+  .menu-toggle:checked~#menu li {
+    display: block;
+  }
+}
+
+/* dropdown menu is hidden */
+@media (min-width:577px) {
+  .navbar-menu li {
+    display: inline-block;
+  }
+ 
+  .navbar-menu li:first-child {
+    display: none;
+  }
+}
+
+.menu-toggle-label {
+  cursor: pointer;
+}
+  
+.menu-toggle-icon {
+  vertical-align: middle;
+}
