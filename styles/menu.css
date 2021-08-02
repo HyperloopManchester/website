@@ -13,18 +13,19 @@
 }
 
 #menu li {
-  padding: 1em;
+  padding: .5em;
   width: 7em;
   text-align: center;
 }
 
 #menu li.menu-brand {
   width: 14em !important;
+  vertical-align: middle;
 }
 
 /* Change the color of links on hover */
 #menu li.menu-link:hover {
-  background-color: #04AA6D;
+  opacity: 60%;
 }
 
 /* dropdown menu is shown */

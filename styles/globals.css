@@ -43,7 +43,7 @@ hr {
 }
 
 .navbar {
-  padding-left: 1em;
+  padding-left: .5em;
   padding-right: 1em;
 }
 
@@ -60,6 +60,13 @@ hr {
 
 .container {
   max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.wide-container {
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
@@ -105,7 +112,7 @@ hr {
   transform: translateY(-100%);
   justify-content: flex-start;
   background-color: rgba(0, 0, 0, 0.9);
-  color: var(--theme-dark-text);
+  color: var(--theme-text);
 }
 
 .card-content > .card-item {

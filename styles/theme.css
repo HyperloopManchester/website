@@ -1,93 +1,16 @@
 :root {
-  --theme-light-bg: #eeeeee;
-  --theme-light-bg-accent: #eeeeee;
-  --theme-light-fg: grey;
-  --theme-light-fg-accent: grey;
-  --theme-light-text: #111111;
-  --theme-light-link: darkslateblue;
-  --theme-light-link-hover: darkslateblue;
-  --theme-light-h1: #111111;
-  --theme-light-h2: darkgoldenrod;
-  --theme-light-h3: darkcyan;
-  --theme-light-switch-shadow: cyan;
-  --theme-light-toggle-text: 'light';
-
-  --theme-dark-bg: #111111;
-  --theme-dark-bg-accent: #111111;
-  --theme-dark-fg: grey;
-  --theme-dark-fg-accent: grey;
-  --theme-dark-text: #eeeeee;
-  --theme-dark-link: slateblue;
-  --theme-dark-link-hover: slateblue;
-  --theme-dark-h1: #eeeeee;
-  --theme-dark-h2: #008000;
-  --theme-dark-h3: #01A060;
-  --theme-dark-switch-shadow: #fce477;
-  --theme-dark-toggle-text: 'dark';
-}
-
-@media screen and (prefers-color-scheme: light) {
-  :root {
-    --theme-bg: var(--theme-light-bg);
-    --theme-bg-accent: var(--theme-light-bg-accent);
-    --theme-fg: var(--theme-light-fg);
-    --theme-fg-accent: var(--theme-light-fg-accent);
-    --theme-text: var(--theme-light-text);
-    --theme-link: var(--theme-light-link);
-    --theme-link-hover: var(--theme-light-link-hover);
-    --theme-h1: var(--theme-light-h1);
-    --theme-h2: var(--theme-light-h2);
-    --theme-h3: var(--theme-light-h3);
-    --theme-switch-shadow: var(--theme-light-switch-shadow);
-    --theme-toggle-text: var(--theme-light-toggle-text);
-  }
-
-  .theme-toggle:checked~#themed {
-    --theme-bg: var(--theme-dark-bg);
-    --theme-bg-accent: var(--theme-dark-bg-accent);
-    --theme-fg: var(--theme-dark-fg);
-    --theme-fg-accent: var(--theme-dark-fg-accent);
-    --theme-text: var(--theme-dark-text);
-    --theme-link: var(--theme-dark-link);
-    --theme-link-hover: var(--theme-dark-link-hover);
-    --theme-h1: var(--theme-dark-h1);
-    --theme-h2: var(--theme-dark-h2);
-    --theme-h3: var(--theme-dark-h3);
-    --theme-switch-shadow: var(--theme-dark-switch-shadow);
-    --theme-toggle-text: var(--theme-dark-toggle-text);
-  }
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --theme-bg: var(--theme-dark-bg);
-    --theme-bg-accent: var(--theme-dark-bg-accent);
-    --theme-fg: var(--theme-dark-fg);
-    --theme-fg-accent: var(--theme-dark-fg-accent);
-    --theme-text: var(--theme-dark-text);
-    --theme-link: var(--theme-dark-link);
-    --theme-link-hover: var(--theme-dark-link-hover);
-    --theme-h1: var(--theme-dark-h1);
-    --theme-h2: var(--theme-dark-h2);
-    --theme-h3: var(--theme-dark-h3);
-    --theme-switch-shadow: var(--theme-dark-switch-shadow);
-    --theme-toggle-text: var(--theme-dark-toggle-text);
-  }
-
-  .theme-toggle:checked~#themed {
-    --theme-bg: var(--theme-light-bg);
-    --theme-bg-accent: var(--theme-light-bg-accent);
-    --theme-fg: var(--theme-light-fg);
-    --theme-fg-accent: var(--theme-light-fg-accent);
-    --theme-text: var(--theme-light-text);
-    --theme-link: var(--theme-light-link);
-    --theme-link-hover: var(--theme-light-link-hover);
-    --theme-h1: var(--theme-light-h1);
-    --theme-h2: var(--theme-light-h2);
-    --theme-h3: var(--theme-light-h3);
-    --theme-switch-shadow: var(--theme-light-switch-shadow);
-    --theme-toggle-text: var(--theme-light-toggle-text);
-  }
+  --theme-bg: #41024c;
+  --theme-bg-accent: #111111;
+  --theme-fg: grey;
+  --theme-fg-accent: grey;
+  --theme-text: #fed317;
+  --theme-link: slateblue;
+  --theme-link-hover: slateblue;
+  --theme-h1: #41024c;
+  --theme-h2: #008000;
+  --theme-h3: #01A060;
+  --theme-switch-shadow: #fce477;
+  --theme-toggle-text: 'dark';
 }
 
 .theme-toggle-label {
@@ -116,12 +39,12 @@
 }
 
 nav {
-  background: var(--theme-dark-bg);
-  color: var(--theme-dark-text);
+  background: var(--theme-bg);
+  color: var(--theme-text);
 }
 
 nav a {
-  color: var(--theme-dark-text);
+  color: var(--theme-text);
 }
 
 a {
