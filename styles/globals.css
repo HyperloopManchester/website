@@ -132,3 +132,8 @@ hr {
 .text-break {
   word-wrap: break-word;
 }
+
+.member-photo {
+  width: 16em;
+  height: 16em;
+}

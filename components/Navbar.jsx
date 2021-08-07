@@ -11,7 +11,6 @@ export default function Navbar() {
                 </label>
                 </li>
                 <Link href="/" passHref><li className="menu-brand menu-link"><img src="/images/manchester_hyperloop.png"/></li></Link>
-                <Link href="/events" passHref><li className="menu-link">Events</li></Link>
                 <Link href="/team" passHref><li className="menu-link">Team</li></Link>
             </ul>
             </nav>

@@ -35,6 +35,12 @@ export default function Index({ sponsors }) {
   const [email, setEmail] = useState("");
   const [contactNumber, setContactNumber] = useState("");
 
+  function sendEmail(e) {
+    e.preventDefault();
+    let subject = `${companyName} ${name} ${email} ${contactNumber}`
+    window.open(`mailto:hyperloopmanchester@gmail.com?subject=${subject}`)
+  }
+
   return (
     <Layout>
       <SlideShow id="slideshow" delay={slideShowDelay} sources={titleSlideSources} className={styles.slideShow}/>
@@ -88,7 +94,7 @@ export default function Index({ sponsors }) {
       </StyledParagraph>
 
       <StyledParagraph>
-        <form>
+        <form onSubmit={sendEmail}>
           <input type="text" 
                required
                placeholder="Company name" 

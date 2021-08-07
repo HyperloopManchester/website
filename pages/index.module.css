@@ -42,3 +42,23 @@
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+.footerList li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    float: left;
+}
+
+.footerList {
+    padding-bottom: 1em;
+}
+
+.footerButton {
+    background: none;
+    border: none;
+}
+
+.footerButton:hover {
+    text-decoration: underline;
+}
