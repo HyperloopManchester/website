@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import TeamNavbar from "../components/TeamNavbar";
 import styles from "./index.module.css";
 
 import { getAllMembers } from "../lib/members";
@@ -12,10 +13,10 @@ export async function getStaticProps() {
 }
 
 export default function Team({ members }) {
-
     return(
         <div>
             <Layout>
+              <TeamNavbar/>
               <div className={`wide-container ${styles.separator}`}> Software Team </div>
               <ul>
                 <li>

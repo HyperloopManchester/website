@@ -1,4 +1,4 @@
-html, hr, body, #__next {
+html, hr, body {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -79,6 +79,10 @@ hr {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.row-left {
+  justify-content: flex-start;
 }
 
 .flex-cols {

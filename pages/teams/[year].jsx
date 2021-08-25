@@ -1,6 +1,7 @@
 import { getAllMembers } from "../../lib/members";
 import Layout from "../../components/Layout";
 import styles from "../index.module.css";
+import TeamNavbar from "../../components/TeamNavbar";
 
 export async function getStaticPaths() {
   return {
@@ -41,6 +42,7 @@ export default function Team({ year, teams }) {
   return(
       <div>
           <Layout>
+            <TeamNavbar/>
             {
               teams.map(({name, description, members}, teamIndex) => (
                 <div key={teamIndex}>

@@ -1,0 +1,11 @@
+.yearButton {
+  border: none;
+  border-bottom: 3px solid var(--theme-fg);
+  background-color: white;
+  font-size: large;
+  padding: .5em;
+}
+
+.yearButton:hover {
+  border-color:  var(--theme-fg-accent);
+}

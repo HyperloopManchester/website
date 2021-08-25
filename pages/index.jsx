@@ -72,7 +72,7 @@ export default function Index({ sponsors }) {
           sponsors.map(({name, rank, logoUrl, url}, index) => {
             return (
               <a target="_blank" href={url} rel="noopener noreferrer">
-                <img src={logoUrl} alt={name} style={{margin: "1em", margin: "1em 4em 1em"}}/>
+                <img src={logoUrl} alt={name} className="responsive-image" style={{ padding: "1em 4em 1em" }}/>
               </a>
             );
           })

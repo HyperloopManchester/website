@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 
 import Modal from './Modal';
-import Navbar from './Navbar';
 
 import styles from '../pages/index.module.css';
+
+import Link from 'next/link';
 
 export default function Layout({ title, description, children }) {
   const [showTerms, setShowTerms] = useState(false);
@@ -17,7 +18,18 @@ export default function Layout({ title, description, children }) {
         <meta name="description" content={description ?? 'Hyperloop Manchester'} />
       </Head>
 
-      <Navbar />
+      <nav className="navbar flex-spaced">
+        <input type="checkbox" className="hidden-input menu-toggle" id="menu-toggler" />
+        <ul className="navbar-menu" id="menu">
+            <li>
+            <label className="menu-toggle-label" htmlFor="menu-toggler">
+                <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
+            </label>
+            </li>
+            <Link href="/" passHref><li className="menu-brand menu-link"><img src="/images/manchester_hyperloop.png"/></li></Link>
+            <Link href="/teams" passHref><li className="menu-link">Team</li></Link>
+        </ul>
+      </nav>
       <hr />
       <main>
         {children}
