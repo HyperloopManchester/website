@@ -1,7 +1,7 @@
 .yearButton {
   border: none;
   border-bottom: 3px solid var(--theme-fg);
-  background-color: white;
+  background-color: var(--theme-bg);
   font-size: large;
   padding: .5em;
 }

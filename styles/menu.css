@@ -13,13 +13,13 @@
 }
 
 #menu li {
-  padding: .5em;
+  padding: 0em .5em 0em;
   width: 7em;
   text-align: center;
 }
 
 #menu li.menu-brand {
-  width: 14em !important;
+  width: 10em !important;
   vertical-align: middle;
 }
 
@@ -29,7 +29,7 @@
 }
 
 /* dropdown menu is shown */
-@media (max-width:576px) {
+@media (max-width:649px) {
   .menu-toggle~#menu li {
     display: none;
   }
@@ -44,7 +44,7 @@
 }
 
 /* dropdown menu is hidden */
-@media (min-width:577px) {
+@media (min-width:650px) {
   .navbar-menu li {
     display: inline-block;
   }

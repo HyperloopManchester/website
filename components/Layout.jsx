@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import Head from 'next/head';
+import React, { useState } from 'react';
 
-import Modal from './Modal';
+import Head from 'next/head';
+import Link from 'next/link';
+
+import Modal from './Modal.jsx';
 
 import styles from '../pages/index.module.css';
-
-import Link from 'next/link';
 
 export default function Layout({ title, description, children }) {
   const [showTerms, setShowTerms] = useState(false);
@@ -21,13 +21,16 @@ export default function Layout({ title, description, children }) {
       <nav className="navbar flex-spaced">
         <input type="checkbox" className="hidden-input menu-toggle" id="menu-toggler" />
         <ul className="navbar-menu" id="menu">
-            <li>
+          <li>
             <label className="menu-toggle-label" htmlFor="menu-toggler">
-                <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
+              <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
             </label>
-            </li>
-            <Link href="/" passHref><li className="menu-brand menu-link"><img src="/images/manchester_hyperloop.png"/></li></Link>
-            <Link href="/teams" passHref><li className="menu-link">Team</li></Link>
+          </li>
+          <Link href="/" passHref><li className="menu-brand menu-link"><img src="/images/brand.png" height="50" /></li></Link>
+          <Link href="/teams" passHref><li className="menu-link">Team</li></Link>
+          <Link href="/news" passHref><li className="menu-link">News</li></Link>
+          <Link href="/events" passHref><li className="menu-link">Events</li></Link>
+          <Link href="/recruitment" passHref><li className="menu-link">Recruitment</li></Link>
         </ul>
       </nav>
       <hr />
@@ -135,32 +138,32 @@ export default function Layout({ title, description, children }) {
           <ul className={styles.footerList}>
             <li><button className={styles.footerButton} onClick={() => setShowTerms(true)}> Terms of Use </button></li>
             <li><button className={styles.footerButton} onClick={() => setShowPolicy(true)}> Privacy Policy </button></li>
-            <li> <span>Hyperloop Manchester © 2021</span> </li>
+            <li><span>Hyperloop Manchester © 2021</span></li>
           </ul>
           <ul className={styles.footerList}>
             <li>
-              <a href="https://www.facebook.com/hyperloopmanchester"> 
-                <img className="footer-icon" src="/facebook.svg"/> 
+              <a href="https://www.facebook.com/hyperloopmanchester" className="footer-icon"> 
+                <img src="/facebook.svg" />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/hyperloop-manchester/"> 
-                <img className="footer-icon" src="/linkedin.svg"/> 
+              <a href="https://www.linkedin.com/company/hyperloop-manchester/" className="footer-icon"> 
+                <img src="/linkedin.svg" />
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCsYvlEDWWNyEILW94FmIXOg"> 
-                <img className="footer-icon" src="/youtube.svg"/> 
+              <a href="https://www.youtube.com/channel/UCsYvlEDWWNyEILW94FmIXOg" className="footer-icon">
+                <img src="/youtube.svg" />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/hyperloopmcr"> 
-                <img className="footer-icon" src="/twitter.svg"/> 
+              <a href="https://twitter.com/hyperloopmcr" className="footer-icon"> 
+                <img src="/twitter.svg" />
               </a>
             </li>
             <li>
-              <a href="mailto:hyperloopmanchester@gmail.com"> 
-                <img className="footer-icon" src="/envelope-fill.svg"/> 
+              <a href="mailto:hyperloopmanchester@gmail.com" className="footer-icon">
+                <img src="/email.svg" />
               </a>
             </li>
           </ul>

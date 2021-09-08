@@ -1,7 +1,11 @@
-import { getAllMembers } from "../../lib/members";
-import Layout from "../../components/Layout";
-import styles from "../index.module.css";
-import TeamNavbar from "../../components/TeamNavbar";
+import React from 'react';
+
+import Layout from '../../components/Layout.jsx';
+import TeamNavbar from '../../components/TeamNavbar.jsx';
+
+import { getAllMembers } from '../../lib/members.js';
+
+import styles from '../index.module.css';
 
 export async function getStaticPaths() {
   return {
@@ -17,46 +21,48 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const all = getAllMembers();
   return {
-    props: getAllMembers().filter(({ year }) => year === params.year)[0]
+    props: {
+      teams: all,
+      current: all.filter(({ year }) => year === params.year)[0],
+    },
   };
 }
 
-function memberCard({name, position, photoUrl, isFoundingMember}, index) {
+function memberCard({ name, position, photoUrl, isFoundingMember }, index) {
   return (
-      <div key={index}>
-          <div className="text-center">
-              {photoUrl && <img src={photoUrl} className="responsive-image member-photo"/>}
-          </div>
-          <h2> {name} </h2>
-          {
-            isFoundingMember &&
-            <h3> Founding Member </h3>
-          }
-          <h3> {position} </h3>
+    <div key={index}>
+      <div className="text-center">
+        {photoUrl && <img src={photoUrl} className="responsive-image member-photo"/>}
       </div>
+      <div className="text-center">
+        <h2>{name}</h2>
+        <span>{position}</span>
+      </div>
+    </div>
   );
 }
 
-export default function Team({ year, teams }) {
-  return(
-      <div>
-          <Layout>
-            <TeamNavbar/>
-            {
-              teams.map(({name, description, members}, teamIndex) => (
-                <div key={teamIndex}>
-                  <div className={`wide-container ${styles.separator}`}>{ name }</div>
-                  <div className="row">
-                    { members.filter(({photoUrl}) => photoUrl).map(memberCard) }
-                  </div>
-                  <div className="row">
-                    { members.filter(({photoUrl}) => (photoUrl === undefined)).map(memberCard) }
-                  </div>
-                </div>
-              ))
-            }
-          </Layout>
-      </div>
+export default function Team({ teams, current }) {
+  return (
+    <Layout title={current.year}>
+      <TeamNavbar teams={teams} />
+      {
+        current.teams.map(({ name, description, members }, idx) => (
+          <div key={idx}>
+            <div className={`wide-container ${styles.separator}`}>
+              {name}
+            </div>
+            <div className="row">
+              { members.filter(({ photoUrl }) => photoUrl).map(memberCard) }
+            </div>
+            <div className="row">
+              { members.filter(({ photoUrl }) => (photoUrl === undefined)).map(memberCard) }
+            </div>
+          </div>
+        ))
+      }
+    </Layout>
   );
 }

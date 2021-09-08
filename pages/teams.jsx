@@ -1,29 +1,35 @@
-import Layout from "../components/Layout";
-import TeamNavbar from "../components/TeamNavbar";
-import styles from "./index.module.css";
+import React from 'react';
 
-import { getAllMembers } from "../lib/members";
+import Layout from '../components/Layout.jsx';
+import TeamNavbar from '../components/TeamNavbar.jsx';
+
+import { getAllMembers } from '../lib/members.js';
+
+import styles from './index.module.css';
 
 export async function getStaticProps() {
   return {
     props: {
-      members: getAllMembers()
+      teams: getAllMembers()
     },
   }
 }
 
-export default function Team({ members }) {
-    return(
-        <div>
-            <Layout>
-              <TeamNavbar/>
-              <div className={`wide-container ${styles.separator}`}> Software Team </div>
-              <ul>
-                <li>
-                Any software assistance required by other teams, mostly Electronics, currently coding the state machine (using MATLAB Stateflow software).
-                </li>
-              </ul>
-            </Layout>
+export default function Team({ teams }) {
+  return (
+    <div>
+      <Layout>
+        <TeamNavbar teams={teams} />
+        <div className={`wide-container ${styles.separator}`}>
+          Software Team
         </div>
-    );
+        <ul>
+          <li>
+            Any software assistance required by other teams, mostly Electronics,
+            currently coding the state machine (using MATLAB Stateflow software).
+          </li>
+        </ul>
+      </Layout>
+    </div>
+  );
 }

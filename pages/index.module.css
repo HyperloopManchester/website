@@ -18,7 +18,7 @@
 .separator::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--theme-text);
 }
 
 .separator::before {
@@ -30,7 +30,7 @@
 }
 
 .button {
-    background-color: var(--theme-bg);
+    background-color: var(--theme-fg);
     color: var(--theme-text);
     width: 12em;
     padding: .5em 1em .5em;
@@ -55,6 +55,7 @@
 }
 
 .footerButton {
+    color: var(--theme-text);
     background: none;
     border: none;
 }

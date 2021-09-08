@@ -1,41 +1,38 @@
 :root {
-  --theme-bg: #41024c;
+  --theme-bg: #111111;
   --theme-bg-accent: #111111;
-  --theme-fg: white;
-  --theme-fg-accent: grey;
-  --theme-text: #fed317;
+  --theme-fg: #41024c;
+  --theme-fg-accent: #goldenrod;
+  --theme-text: #eeeeee;
   --theme-link: slateblue;
   --theme-link-hover: slateblue;
   --theme-h1: #41024c;
   --theme-h2: #41024c;
   --theme-h3: #41024c;
-  --theme-switch-shadow: #fce477;
-  --theme-toggle-text: 'dark';
+
+  /*
+  --theme-bg: #111111;
+  --theme-bg-accent: #111111;
+  --theme-fg: #41024c;
+  --theme-fg-accent: #goldenrod;
+  --theme-text: #eeeeee;
+  --theme-link: slateblue;
+  --theme-link-hover: slateblue;
+  --theme-h1: #41024c;
+  --theme-h2: #41024c;
+  --theme-h3: #41024c;
+  */
 }
 
-.theme-toggle-label {
-  padding: 1em;
-  cursor: pointer;
-  display: flex;
-}
-
-.theme-toggle-label::before {
-  transition: text-shadow .2s;
-}
-
-.theme-toggle-label::after {
-  color: var(--theme-switch-shadow);
-  content: var(--theme-toggle-text);
-}
-
-.theme-toggle-label:hover::before,.theme-toggle:focus~#themed .theme-toggle-label::before {
-  text-shadow: 0 0 15px var(--theme-switch-shadow);
-}
-
-#themed {
+body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
   min-height: 100%;
+}
+
+button {
+  background-color: var(--theme-fg);
+  color: var(--theme-text);
 }
 
 nav {
