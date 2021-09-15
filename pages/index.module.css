@@ -1,65 +1,65 @@
 .slideShow {
-    height: 100vh;
+  height: 100vh;
 }
 
 .componentSlideShow {
-    min-height: 70vh;
+  min-height: 70vh;
 }
 
 .separator {
-    font-weight: bold;
-    font-size: larger;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
-  
+
 .separator::before,
 .separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid var(--theme-text);
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--theme-text);
 }
 
 .separator::before {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 .separator::after {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .button {
-    background-color: var(--theme-fg);
-    color: var(--theme-text);
-    width: 12em;
-    padding: .5em 1em .5em;
+  background-color: var(--theme-fg);
+  color: var(--theme-fg-accent);
+  width: 12em;
+  padding: 0.5em 1em 0.5em;
 }
 
 .inputText {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .footerList li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 20px;
-    float: left;
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
 }
 
 .footerList {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .footerButton {
-    color: var(--theme-text);
-    background: none;
-    border: none;
+  color: var(--theme-text);
+  background: none;
+  border: none;
 }
 
 .footerButton:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

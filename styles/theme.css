@@ -1,27 +1,14 @@
 :root {
-  --theme-bg: #111111;
-  --theme-bg-accent: #111111;
+  --theme-bg: #eeeeee;
+  --theme-bg-accent: #41024c;
   --theme-fg: #41024c;
-  --theme-fg-accent: #goldenrod;
-  --theme-text: #eeeeee;
+  --theme-fg-accent: #fed317;
+  --theme-text: #111111;
   --theme-link: slateblue;
   --theme-link-hover: slateblue;
   --theme-h1: #41024c;
   --theme-h2: #41024c;
   --theme-h3: #41024c;
-
-  /*
-  --theme-bg: #111111;
-  --theme-bg-accent: #111111;
-  --theme-fg: #41024c;
-  --theme-fg-accent: #goldenrod;
-  --theme-text: #eeeeee;
-  --theme-link: slateblue;
-  --theme-link-hover: slateblue;
-  --theme-h1: #41024c;
-  --theme-h2: #41024c;
-  --theme-h3: #41024c;
-  */
 }
 
 body {
@@ -56,6 +43,9 @@ h2 {
   color: var(--theme-h2);
 }
 
-h3,h4,h5,h6 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--theme-h3);
 }

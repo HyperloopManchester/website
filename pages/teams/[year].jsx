@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../../components/Layout.jsx';
-import TeamNavbar from '../../components/TeamNavbar.jsx';
+import Layout from "../../components/Layout.jsx";
+import TeamNavbar from "../../components/TeamNavbar.jsx";
 
-import { getAllMembers } from '../../lib/members.js';
+import { getAllMembers } from "../../lib/members.js";
 
-import styles from '../index.module.css';
+import styles from "../index.module.css";
 
 export async function getStaticPaths() {
   return {
     paths: getAllMembers().map(({ filename }) => {
       return {
         params: {
-          year: filename.split('.')[0]
-        }
+          year: filename.split(".")[0],
+        },
       };
     }),
     fallback: false,
@@ -34,7 +34,9 @@ function memberCard({ name, position, photoUrl, isFoundingMember }, index) {
   return (
     <div key={index}>
       <div className="text-center">
-        {photoUrl && <img src={photoUrl} className="responsive-image member-photo"/>}
+        {photoUrl && (
+          <img src={photoUrl} className="responsive-image member-photo" />
+        )}
       </div>
       <div className="text-center">
         <h2>{name}</h2>
@@ -48,21 +50,19 @@ export default function Team({ teams, current }) {
   return (
     <Layout title={current.year}>
       <TeamNavbar teams={teams} />
-      {
-        current.teams.map(({ name, description, members }, idx) => (
-          <div key={idx}>
-            <div className={`wide-container ${styles.separator}`}>
-              {name}
-            </div>
-            <div className="row">
-              { members.filter(({ photoUrl }) => photoUrl).map(memberCard) }
-            </div>
-            <div className="row">
-              { members.filter(({ photoUrl }) => (photoUrl === undefined)).map(memberCard) }
-            </div>
+      {current.teams.map(({ name, description, members }, idx) => (
+        <div key={idx}>
+          <div className={`wide-container ${styles.separator}`}>{name}</div>
+          <div className="row">
+            {members.filter(({ photoUrl }) => photoUrl).map(memberCard)}
           </div>
-        ))
-      }
+          <div className="row">
+            {members
+              .filter(({ photoUrl }) => photoUrl === undefined)
+              .map(memberCard)}
+          </div>
+        </div>
+      ))}
     </Layout>
   );
 }

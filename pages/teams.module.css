@@ -3,9 +3,9 @@
   border-bottom: 3px solid var(--theme-fg);
   background-color: var(--theme-bg);
   font-size: large;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .yearButton:hover {
-  border-color:  var(--theme-fg-accent);
+  border-color: var(--theme-fg-accent);
 }

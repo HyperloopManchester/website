@@ -1,48 +1,53 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout.jsx';
-import StyledParagraph from '../components/StyledParagraph.jsx';
-import SlideShow from '../components/SlideShow.jsx';
+import Layout from "../components/Layout.jsx";
+import StyledParagraph from "../components/StyledParagraph.jsx";
+import SlideShow from "../components/SlideShow.jsx";
 
-import { getAllSponsors } from '../lib/sponsors.js';
+import { getAllSponsors } from "../lib/sponsors.js";
 
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 export async function getStaticProps() {
   return {
     props: {
-      sponsors: getAllSponsors()
+      sponsors: getAllSponsors(),
     },
-  }
+  };
 }
 
 export default function Index({ sponsors }) {
   const slideShowDelay = 5;
 
   const titleSlideSources = [
-    '/images/slide-pod-concrete.jpg',
-    '/images/slide-pod-country.jpg',
-    '/images/slide-pod-tube.jpg',
-    '/images/slide-pod.jpg',
-    '/images/slide-tube.jpg'
+    "/images/slide-pod-concrete.jpg",
+    "/images/slide-pod-country.jpg",
+    "/images/slide-pod-tube.jpg",
+    "/images/slide-pod.jpg",
+    "/images/slide-tube.jpg",
   ];
 
   const podComponentSources = [
-    '/images/outer-shell.jpg',
-    '/images/braking-system.jpg',
-    '/images/chassis-design.jpg'
+    "/images/outer-shell.jpg",
+    "/images/braking-system.jpg",
+    "/images/chassis-design.jpg",
   ];
 
   return (
     <Layout>
-      <SlideShow id="slideshow" delay={slideShowDelay} sources={titleSlideSources} className={styles.slideShow} />
+      <SlideShow
+        id="slideshow"
+        delay={slideShowDelay}
+        sources={titleSlideSources}
+        className={styles.slideShow}
+      />
 
       <StyledParagraph id="about" title="Who are we?">
         <p>
           Hyperloop Manchester is a student-led Hyperloop project organization
-          aiming to compete in the Hyperloop competitions organized by SpaceX
-          or other organisations and to share our knowledge with people around
-          the world.
+          aiming to compete in the Hyperloop competitions organized by SpaceX or
+          other organisations and to share our knowledge with people around the
+          world.
         </p>
         <p>
           The team is founded in 2019. Now, Hyperloop Manchester has around 70
@@ -65,11 +70,18 @@ export default function Index({ sponsors }) {
           The Hyperloop pod which is currently being designed by Hyperloop
           Manchester team is Hyperman I.
         </p>
-        <img src="/images/pod-image-side-angle-view.png" className="responsive-image" />
+        <img
+          src="/images/pod-image-side-angle-view.png"
+          className="responsive-image"
+        />
       </StyledParagraph>
 
       <StyledParagraph id="innovation" title="We always work and inovate">
-        <SlideShow delay={slideShowDelay} sources={podComponentSources} className={styles.componentSlideShow} />
+        <SlideShow
+          delay={slideShowDelay}
+          sources={podComponentSources}
+          className={styles.componentSlideShow}
+        />
       </StyledParagraph>
 
       <StyledParagraph id="map" title="Map of the revolution">
@@ -78,42 +90,54 @@ export default function Index({ sponsors }) {
 
       <div className={`wide-container ${styles.separator}`}>Our sponsors</div>
       <div className="row">
-        {
-          sponsors.map(({ name, rank, logoUrl, url }, index) => (
-            <a key={index} target="_blank" href={url} rel="noopener noreferrer">
-              <img src={logoUrl} alt={name} className="responsive-image" style={{ padding: "1em 4em 1em" }} />
-            </a>
-          ))
-        }
+        {sponsors.map(({ name, rank, logoUrl, url }, index) => (
+          <a key={index} target="_blank" href={url} rel="noopener noreferrer">
+            <img
+              src={logoUrl}
+              alt={name}
+              className="responsive-image"
+              style={{ padding: "1em 4em 1em" }}
+            />
+          </a>
+        ))}
       </div>
 
-      <div className={`wide-container ${styles.separator}`}>Become a partner</div>
-      <StyledParagraph id="become-partner" title="Join the Team – Become a Partner">
+      <div className={`wide-container ${styles.separator}`}>
+        Become a partner
+      </div>
+      <StyledParagraph
+        id="become-partner"
+        title="Join the Team – Become a Partner"
+      >
         <p>
           The Hyperloop concept itself is an innovation pushing the very
           boundaries of transportation technology; therefore, it only makes
-          sense that our vision and ideas are of the same magnitude. Our goal
-          is to build the fastest pod we can and win the Hyperloop Pod
-          Competition. To achieve this, we rely on the valuable contributions
-          from our sponsors, who support us in technical, material and
-          financial matters.
+          sense that our vision and ideas are of the same magnitude. Our goal is
+          to build the fastest pod we can and win the Hyperloop Pod Competition.
+          To achieve this, we rely on the valuable contributions from our
+          sponsors, who support us in technical, material and financial matters.
         </p>
         <p>
           Are you interested in making the fifth mode of transport a reality
-          with us? For more information, contact us at:
+          with us? For more information, contact us at:{" "}
           <a href="mailto:hyperloopmanchester@gmail.com">
             hyperloopmanchester@gmail.com
-          </a>
+          </a>{" "}
           and we will get in touch.
         </p>
         <p>
           Please view our Hyperloop Manchester info pack by clicking the button
           below.
         </p>
-        <br/>
+        <br />
         <div className="text-center">
-          <a target="_blank" href="/sponsor-pack.pdf" rel="noopener noreferrer" className={styles.button}> 
-            Open Info Pack 
+          <a
+            target="_blank"
+            href="/sponsor-pack.pdf"
+            rel="noopener noreferrer"
+            className={styles.button}
+          >
+            Open Info Pack
           </a>
         </div>
       </StyledParagraph>
