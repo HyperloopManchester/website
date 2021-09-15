@@ -45,7 +45,7 @@ export default function Index({ sponsors }) {
           className="text-center"
           style={{
             backgroundColor: "rgba(0,0,0,.5)",
-            width: "50%",
+            width: "70%",
             margin: "4em auto",
           }}
         >
