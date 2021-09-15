@@ -40,7 +40,23 @@ export default function Index({ sponsors }) {
         delay={slideShowDelay}
         sources={titleSlideSources}
         className={styles.slideShow}
-      />
+      >
+        <div
+          className="text-center"
+          style={{
+            backgroundColor: "rgba(0,0,0,.5)",
+            width: "50%",
+            margin: "4em auto",
+          }}
+        >
+          <h1 style={{ color: "var(--theme-bg)" }}>
+            THE STUDENT-LED TRANSPORT REVOLUTION
+          </h1>
+          <h2 style={{ color: "var(--theme-bg)" }}>
+            EHW 2021 Finalist, Top 5 in Best Levitation Design in EHW 2021
+          </h2>
+        </div>
+      </SlideShow>
 
       <StyledParagraph id="about" title="Who are we?">
         <p>
