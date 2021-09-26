@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Committee",
+    "description": "",
+    "members": [
+      {
+        "name": "André Neves",
+        "isFoundingMember": true,
+        "photoUrl": "/members/andre-neves.jpg",
+        "position": "Technical Team Director"
+      },
+      {
+        "name": "Hakan Okten",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hakan-okten.jpg",
+        "position": "Head of Electronics"
+      },
+      {
+        "name": "András Geiszl",
+        "isFoundingMember": true,
+        "photoUrl": "/members/andras-geiszl.jpg",
+        "position": "Head of Software"
+      },
+      {
+        "name": "Franka Grazdani",
+        "isFoundingMember": true,
+        "photoUrl": "/members/franka-grazdani.jpg",
+        "position": "Head of Statics"
+      },
+      {
+        "name": "Gregoris Malekos",
+        "isFoundingMember": true,
+        "photoUrl": "/members/gregoris-malekos.jpg",
+        "position": "Head of Simulations"
+      },
+      {
+        "name": "Raihan Noushad",
+        "isFoundingMember": true,
+        "photoUrl": "/members/raihan-noushad.jpg",
+        "position": "Head of Dynamics"
+      },
+      {
+        "name": "Hak Jin Sim",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hak-jin-sim.jpg",
+        "position": "Head of Power"
+      },
+      {
+        "name": "Sakircan Beyazit",
+        "isFoundingMember": true,
+        "photoUrl": "/members/sakircan-beyazit.jpg",
+        "position": "Head of Research"
+      },
+      {
+        "name": "Nicole Morgan",
+        "isFoundingMember": true,
+        "photoUrl": "/members/nicole-morgan.jpg",
+        "position": "Business & Outreach Director"
+      },
+      {
+        "name": "Oliver Laryea",
+        "isFoundingMember": true,
+        "photoUrl": "/members/oliver-laryea.jpg",
+        "position": "Business Development Director"
+      }
+    ]
+  },
+  {
+    "name": "Software and Electronics Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Samyak Jain",
+        "position": "Electronics Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Statics Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Jared Hassan",
+        "position": "Statics Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Simulations Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Jakub Zemek",
+        "position": "Simulations Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Dynamics and Power Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Matthew Payne",
+        "position": "Lead Dynamics Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Research Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Barbora Salcman",
+        "position": "Research Analyst"
+      }
+    ]
+  },
+  {
+    "name": "Business and Outreach Teams",
+    "description": "",
+    "members": [
+      {
+        "name": "Claudia Lee",
+        "position": "Marketing Analyst"
+      }
+    ]
+  }
+]

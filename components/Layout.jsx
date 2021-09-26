@@ -38,7 +38,7 @@ export default function Layout({ title, description, children }) {
               <img src="/images/brand.png" height="50" />
             </li>
           </Link>
-          <Link href="/teams/2020" passHref>
+          <Link href="/teams/2022" passHref>
             <li className="menu-link">Team</li>
           </Link>
           <Link href="/news" passHref>

@@ -61,3 +61,13 @@
 .menu-toggle-icon {
   vertical-align: middle;
 }
+
+.menu-link {
+  color: var(--theme-bg);
+  opacity: 1;
+}
+
+.menu-link:hover {
+  color: var(--theme-fg-accent);
+  opacity: 1;
+}

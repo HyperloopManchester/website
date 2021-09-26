@@ -58,7 +58,7 @@ export default function Team({ teams, current }) {
           </div>
           <div className="row">
             {members
-              .filter(({ photoUrl }) => photoUrl === undefined)
+              .filter(({ photoUrl }) => (!photoUrl || photoUrl === undefined))
               .map(memberCard)}
           </div>
         </div>

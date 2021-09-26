@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Committee",
+    "description": "",
+    "members": [
+      {
+        "name": "Thomas Simpson",
+        "photoUrl": "",
+        "position": "President"
+      },
+      {
+        "name": "Rutvik Perepa",
+        "photoUrl": "",
+        "position": "Mechanical Chief Engineer"
+      },
+      {
+        "name": "Tina Eslami",
+        "photoUrl": "",
+        "position": "Mechanical Project Manager"
+      },
+      {
+        "name": "Abraham Levy",
+        "photoUrl": "",
+        "position": "Head of Propulsion"
+      },
+      {
+        "name": "Jaime Benthem",
+        "photoUrl": "",
+        "position": "Head of Emergency Braking"
+      },
+      {
+        "name": "Akshat Damani",
+        "photoUrl": "",
+        "position": "Head of Maglev"
+      },
+      {
+        "name": "James Ewing",
+        "photoUrl": "",
+        "position": "Head of Chassis and Integration"
+      },
+      {
+        "name": "Jakub Zemek",
+        "photoUrl": "",
+        "position": "Head of Outer Shell"
+      },
+      {
+        "name": "Bassel Ezz",
+        "photoUrl": "",
+        "position": "Head of Braking"
+      },
+      {
+        "name": "Karolis Gudziunas",
+        "photoUrl": "",
+        "position": "Head of Suspension"
+      },
+      {
+	"name": "Mikolaj Lenczewski",
+	"photoUrl": "",
+	"position": "Head of Software"
+      },
+      {
+	"name": "Ishaan Ghatak",
+	"photoUrl": "",
+	"position": "Head of Electronics"
+      },
+      {
+	"name": "Luís Miguel Messias",
+	"photoUrl": "",
+	"position": "Head of Business"
+      },
+      {
+	"name": "Hussein Janmohamed",
+	"photoUrl": "",
+	"position": "Head of Marketing"
+      },
+      {
+	"name": "Joel Chan",
+	"photoUrl": "",
+	"position": "Head of Sponsorship"
+      }
+    ]
+  },
+  {
+    "name": "Outer Shell Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Muhammad Bin Saifullizan",
+        "position": "Outer Shell Engineer"
+      },
+      {
+	"name": "Irmak Keles",
+	"position": "Outer Shell Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Chassis and Integration Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Jared Hassan",
+	"position": "Chassis and Integration Engineer"
+      },
+      {
+	"name": "Philip Rosborough",
+	"position": "Chassis and Integration Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Suspension Team",
+    "description": "",
+    "members": [
+      {
+	"name": "Benita Benoi",
+	"position": "Suspension Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Software Team",
+    "description": "",
+    "members": [
+      {
+	"name": "Andrei Popescu",
+	"position": "Software Engineer"
+      },
+      {
+	"name": "Syed Saud Humayun",
+	"position": "Software Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Electronics Team",
+    "description": "",
+    "members": [
+      {
+	"name": "Yousef Kloob",
+	"position": "Electronics Engineer"
+      }
+    ]
+  }
+]

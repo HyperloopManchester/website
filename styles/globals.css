@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  font-size: 1.2em;
   font-family: "Red Hat Display", sans-serif;
   line-height: 1.5;
 }
@@ -11,6 +12,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
 * {
@@ -25,6 +27,18 @@ h5,
 h6 {
   line-height: 1.2;
   text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  fon-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 hr {
