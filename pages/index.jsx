@@ -49,10 +49,10 @@ export default function Index({ sponsors }) {
             margin: "4em auto",
           }}
         >
-          <h2 style={{ wordBreak: "break-word", fontWeight: "900", color: "var(--theme-bg)" }}>
+          <h2 style={{ wordBreak: "break-word", fontWeight: "bolder", color: "var(--theme-bg)" }}>
             THE STUDENT-LED TRANSPORT REVOLUTION
           </h2>
-          <h2 style={{ wordBreak: "break-word", fontWeight: "900", color: "var(--theme-bg)" }}>
+          <h2 style={{ wordBreak: "break-word", fontWeight: "bolder", color: "var(--theme-bg)" }}>
             EHW 2021 Finalist, Top 5 in Best Levitation Design in EHW 2021
           </h2>
         </div>

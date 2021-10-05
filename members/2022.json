@@ -89,8 +89,12 @@
         "position": "Outer Shell Engineer"
       },
       {
-	"name": "Irmak Keles",
-	"position": "Outer Shell Engineer"
+        "name": "Irmak Keles",
+        "position": "Outer Shell Engineer"
+      },
+      {
+        "name": "Karim Elbehiri",
+        "position": "Outer Shell Engineer"
       }
     ]
   },
@@ -100,11 +104,15 @@
     "members": [
       {
         "name": "Jared Hassan",
-	"position": "Chassis and Integration Engineer"
+        "position": "Chassis and Integration Engineer"
       },
       {
-	"name": "Philip Rosborough",
-	"position": "Chassis and Integration Engineer"
+        "name": "Philip Rosborough",
+        "position": "Chassis and Integration Engineer"
+      },
+      {
+        "name": "Ritik Raj",
+        "position": "Chassis and Integration Engineer"
       }
     ]
   },
@@ -113,8 +121,20 @@
     "description": "",
     "members": [
       {
-	"name": "Benita Benoi",
-	"position": "Suspension Engineer"
+        "name": "Benita Benoi",
+        "position": "Suspension Engineer"
+      },
+      {
+        "name": "Zhenhao Yang",
+        "position": "Suspension Engineer"
+      },
+      {
+        "name": "Giulio Stangarone",
+        "position": "Suspension Engineer"
+      },
+      {
+        "name": "Daman Alam Sheikh",
+        "position": "Suspension Engineer"
       }
     ]
   },
@@ -123,7 +143,7 @@
     "description": "",
     "members": [
       {
-	"name": "Andrei Popescu",
+	"name": "Andrei Cristian Popescu",
 	"position": "Software Engineer"
       },
       {
@@ -137,9 +157,90 @@
     "description": "",
     "members": [
       {
-	"name": "Yousef Kloob",
-	"position": "Electronics Engineer"
+        "name": "Fotis Kougionas",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Harry Heather",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Harry Shakesheff",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Mohamed Hassan",
+        "position": "Electronics Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Power/Propulsion Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Sunil Kumar",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Abdallah Zakaria",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Muhammad Raimi Bin Mohd Affandi",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Ayash Anwar",
+        "position": "Propulsion and Power Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Magnetic Levitation Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Yeshas Kuntamalla",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Ziad Ali",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Nishwa Nawaz",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Tibault Dary-Alabaster",
+        "position": "Magnetic Levitation Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Breaking Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Llorenc Balada Gaggioli",
+        "position": "Breaking Engineer"
+      },
+      {
+        "name": "Llorenc Balada Gaggioli",
+        "position": "Emergency Breaking Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Sponsorship Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Anish Shah",
+        "position": "Sponsorship"
       }
     ]
   }
+
 ]
