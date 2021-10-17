@@ -5,77 +5,81 @@
     "members": [
       {
         "name": "Thomas Simpson",
-        "photoUrl": "",
+        "photoUrl": "/members/thomas-simpson.jpg",
         "position": "President"
       },
       {
         "name": "Rutvik Perepa",
-        "photoUrl": "",
-        "position": "Mechanical Chief Engineer"
+        "photoUrl": "/members/rutvik-perepa.jpg",
+        "position": "Mechanical Team Chief Engineer"
       },
       {
         "name": "Tina Eslami",
-        "photoUrl": "",
-        "position": "Mechanical Project Manager"
+        "photoUrl": "/members/tina-eslami.jpg",
+        "position": "Mechanical Team Project Manager"
       },
       {
         "name": "Abraham Levy",
-        "photoUrl": "",
+        "photoUrl": "/members/abraham-levy.jpg",
         "position": "Head of Propulsion"
       },
       {
         "name": "Jaime Benthem",
-        "photoUrl": "",
+        "photoUrl": "/members/jaime-benthem.jpg",
         "position": "Head of Emergency Braking"
       },
       {
         "name": "Akshat Damani",
-        "photoUrl": "",
-        "position": "Head of Maglev"
+        "photoUrl": "/members/akshat-damani.jpg",
+        "position": "Head of Magnetic Levitation"
       },
       {
         "name": "James Ewing",
-        "photoUrl": "",
+        "photoUrl": "/members/james-ewing.jpg",
         "position": "Head of Chassis and Integration"
       },
       {
         "name": "Jakub Zemek",
-        "photoUrl": "",
+        "photoUrl": "/members/jakub-zemek.jpg",
         "position": "Head of Outer Shell"
       },
       {
         "name": "Bassel Ezz",
-        "photoUrl": "",
+        "photoUrl": "/members/bassel-ezz.jpg",
         "position": "Head of Braking"
       },
       {
         "name": "Karolis Gudziunas",
-        "photoUrl": "",
+        "photoUrl": "/members/karolis-gudziunas.jpg",
         "position": "Head of Suspension"
       },
       {
 	"name": "Mikolaj Lenczewski",
-	"photoUrl": "",
 	"position": "Head of Software"
       },
       {
 	"name": "Ishaan Ghatak",
-	"photoUrl": "",
+	"photoUrl": "/members/ishaan-ghatak.jpg",
 	"position": "Head of Electronics"
       },
       {
 	"name": "Luís Miguel Messias",
-	"photoUrl": "",
+	"photoUrl": "/members/luis-miguel-messais.jpg",
 	"position": "Head of Business"
       },
       {
 	"name": "Hussein Janmohamed",
-	"photoUrl": "",
-	"position": "Head of Marketing"
+	"photoUrl": "/members/hussein-janmohamed.jpg",
+	"position": "Head of Marketing and Outreach"
+      },
+      {
+        "name": "Oliver Tunnicliffe",
+        "photoUrl": "/members/oliver-tunnicliffe.jpg",
+        "position": "Treasurer"
       },
       {
 	"name": "Joel Chan",
-	"photoUrl": "",
+	"photoUrl": "/members/joel-chan.jpg",
 	"position": "Head of Sponsorship"
       }
     ]
@@ -95,6 +99,10 @@
       {
         "name": "Karim Elbehiri",
         "position": "Outer Shell Engineer"
+      },
+      {
+        "name": "Jaikrishna Ramachandran",
+        "position": "Outer Shell Engineer"
       }
     ]
   },
@@ -108,10 +116,6 @@
       },
       {
         "name": "Philip Rosborough",
-        "position": "Chassis and Integration Engineer"
-      },
-      {
-        "name": "Ritik Raj",
         "position": "Chassis and Integration Engineer"
       }
     ]
@@ -135,6 +139,14 @@
       {
         "name": "Daman Alam Sheikh",
         "position": "Suspension Engineer"
+      },
+      {
+        "name": "Rokas Ramancevicius",
+        "position": "Suspension Engineer"
+      },
+      {
+        "name": "Ignas Kurtinaitis",
+        "position": "Suspension Engineer"
       }
     ]
   },
@@ -144,11 +156,31 @@
     "members": [
       {
 	"name": "Andrei Cristian Popescu",
-	"position": "Software Engineer"
+        "position": "Software Engineer"
       },
       {
 	"name": "Syed Saud Humayun",
-	"position": "Software Engineer"
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Valentina Barrera Del Gato",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Lawrence Hunter",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Lukas Rimkus",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Ashreen Kaur",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Victor Rusnac",
+        "position": "Software Engineer"
       }
     ]
   },
@@ -171,11 +203,15 @@
       {
         "name": "Mohamed Hassan",
         "position": "Electronics Engineer"
+      },
+      {
+        "name": "Georgios Theofilakos",
+        "position": "Electronics Engineer"
       }
     ]
   },
   {
-    "name": "Power/Propulsion Team",
+    "name": "Propulsion and Power Team",
     "description": "",
     "members": [
       {
@@ -191,7 +227,15 @@
         "position": "Propulsion and Power Engineer"
       },
       {
-        "name": "Ayash Anwar",
+        "name": "Konstantinos Margelos",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Jean-Thomas Valls",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Yousef Salama",
         "position": "Propulsion and Power Engineer"
       }
     ]
@@ -215,32 +259,101 @@
       {
         "name": "Tibault Dary-Alabaster",
         "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Adithya Vadakkadath",
+        "position": "Magentic Levitation Engineer"
       }
     ]
   },
   {
-    "name": "Breaking Team",
+    "name": "Braking Team",
     "description": "",
     "members": [
       {
         "name": "Llorenc Balada Gaggioli",
-        "position": "Breaking Engineer"
+        "position": "Braking Engineer"
       },
       {
-        "name": "Llorenc Balada Gaggioli",
-        "position": "Emergency Breaking Engineer"
+        "name": "Jai Singh Kurmi",
+        "position": "Braking Engineer"
       }
     ]
   },
   {
-    "name": "Sponsorship Team",
+    "name": "Emergency Braking Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Afiq Iskandar Bin Md Zain",
+        "position": "Emergency Braking Engineer"
+      },
+      {
+        "name": "Seungjoo Yang",
+        "position": "Emergency Braking Engineer"
+      },
+      {
+        "name": "Agamani Mullick",
+        "position": "Emergency Braking Engineer"
+      },
+      {
+        "name": "Tait Thompson",
+        "position": "Emergency Braking Engineer"
+      },
+      {
+        "name": "Harris Asghar",
+        "position": "Emergency Braking Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Business Team",
     "description": "",
     "members": [
       {
         "name": "Anish Shah",
-        "position": "Sponsorship"
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Stepan Dishdishyan",
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Olga Sztaborowska",
+        "position": "Market Researhcer and Sociel Media Manager"
+      }
+    ]
+  },
+  {
+    "name": "Advisors",
+    "description": "",
+    "members": [
+      {
+        "name": "Hakan Okten",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hakan-okten.jpg",
+        "position": "Co-Founder and Team Advisor"
+      },
+      {
+        "name": "Batuhan Gerdan",
+        "isFoundingMember": true,
+        "photoUrl": "/members/batuhan-gerdan.jpg",
+        "position": "Co-Founder and Team Advisor"
+      }
+    ]
+  },
+  {
+    "name": "External Partners",
+    "description": "",
+    "members": [
+      {
+        "name": "Ritik Raj",
+        "position": "Chassis and Integration Engineer"
+      },
+      {
+        "name": "Ayash Mohamed Anwar",
+        "position": "Propulsion and Power Engineer"
       }
     ]
   }
-
 ]

@@ -29,7 +29,7 @@
 }
 
 /* dropdown menu is shown */
-@media (max-width: 649px) {
+@media (max-width: 949px) {
   .menu-toggle ~ #menu li {
     display: none;
   }
@@ -44,7 +44,7 @@
 }
 
 /* dropdown menu is hidden */
-@media (min-width: 650px) {
+@media (min-width: 950px) {
   .navbar-menu li {
     display: inline-block;
   }

@@ -13,7 +13,7 @@
         "name": "Hakan Okten",
         "isFoundingMember": true,
         "photoUrl": "/members/hakan-okten.jpg",
-        "position": "Head of Electronics"
+        "position": "Co-Founder and Co-President, Head of Electronics"
       },
       {
         "name": "András Geiszl",
@@ -72,6 +72,50 @@
       {
         "name": "Samyak Jain",
         "position": "Electronics Engineer"
+      },
+      {
+        "name": "Ivan Dewerpe",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Andrew Botar",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Mohamed Ben Al-Fakih",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Arthur Funnell",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Chen Bo Calvin Zhang",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Christian James Pollitt",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Francesco Malgioglio",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Theo Pavel",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Péter Fóris",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Vinh Phan Van",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Harry O'Brien",
+        "position": "Software Engineer"
       }
     ]
   },
@@ -81,6 +125,22 @@
     "members": [
       {
         "name": "Jared Hassan",
+        "position": "Statics Engineer"
+      },
+      {
+        "name": "Furqan Shahzad",
+        "position": "Statics Engineer"
+      },
+      {
+        "name": "Batuhan Gerdan",
+        "position": "Statics Engineer"
+      },
+      {
+        "name": "Tina Eslami",
+        "position": "Statics Engineer"
+      },
+      {
+        "name": "David Hajduch",
         "position": "Statics Engineer"
       }
     ]
@@ -92,6 +152,14 @@
       {
         "name": "Jakub Zemek",
         "position": "Simulations Engineer"
+      },
+      {
+        "name": "Mabel Ziman",
+        "position": "Simulations Engineer"
+      },
+      {
+        "name": "Bartek Hasko",
+        "position": "Simulations Engineer"
       }
     ]
   },
@@ -102,6 +170,46 @@
       {
         "name": "Matthew Payne",
         "position": "Lead Dynamics Engineer"
+      },
+      {
+        "name": "Mohammad Umair Syed",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Venkat Sai Somayajula",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "James Morten",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Louis Gallagher",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Ivan de Ramon",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Nicolo Cortese",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Abraham Levy",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Hashim Hamid",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Rutvik Perepa",
+        "position": "Dynamics Engineer"
+      },
+      {
+        "name": "Sreeram Saminathan",
+        "position": "Battery/Power Engineer"
       }
     ]
   },
@@ -111,6 +219,22 @@
     "members": [
       {
         "name": "Barbora Salcman",
+        "position": "Research Analyst"
+      },
+      {
+        "name": "Amar Rai",
+        "position": "Research Analyst"
+      },
+      {
+        "name": "Amir Kidwai",
+        "position": "Research Analyst"
+      },
+      {
+        "name": "Reean Khan",
+        "position": "Research Analyst"
+      },
+      {
+        "name": "Fragkoulis Theodosiou",
         "position": "Research Analyst"
       }
     ]
@@ -122,6 +246,30 @@
       {
         "name": "Claudia Lee",
         "position": "Marketing Analyst"
+      },
+      {
+        "name": "Nur Sharbek",
+        "position": "Marketing Analyst"
+      },
+      {
+        "name": "Joel Chan",
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Burcu Can",
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Lucy Tordoff",
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Deniz Altuglu",
+        "position": "Sponsorship Analyst"
+      },
+      {
+        "name": "Boran Engin",
+        "position": "Digital Marketing Coordinator"
       }
     ]
   }
