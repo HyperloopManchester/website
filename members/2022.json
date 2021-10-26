@@ -64,7 +64,7 @@
       },
       {
 	"name": "Luís Miguel Messias",
-	"photoUrl": "/members/luis-miguel-messais.jpg",
+	"photoUrl": "/members/luis-miguel-messias.jpg",
 	"position": "Head of Business"
       },
       {
@@ -74,7 +74,6 @@
       },
       {
         "name": "Oliver Tunnicliffe",
-        "photoUrl": "/members/oliver-tunnicliffe.jpg",
         "position": "Treasurer"
       },
       {
@@ -94,14 +93,17 @@
       },
       {
         "name": "Irmak Keles",
+        "photoUrl": "/members/irmak-keles.jpg",
         "position": "Outer Shell Engineer"
       },
       {
         "name": "Karim Elbehiri",
+        "photoUrl": "/members/karim-elbehiri.jpg",
         "position": "Outer Shell Engineer"
       },
       {
         "name": "Jaikrishna Ramachandran",
+        "photoUrl": "/members/jaikrishna-ramachandran.jpg",
         "position": "Outer Shell Engineer"
       }
     ]
@@ -112,10 +114,12 @@
     "members": [
       {
         "name": "Jared Hassan",
+        "photoUrl": "/members/jared-hassan.jpg",
         "position": "Chassis and Integration Engineer"
       },
       {
         "name": "Philip Rosborough",
+        "photoUrl": "/members/philip-rosborough.jpg",
         "position": "Chassis and Integration Engineer"
       }
     ]
@@ -130,6 +134,7 @@
       },
       {
         "name": "Zhenhao Yang",
+        "photoUrl": "/members/zhenhao-yang.jpg",
         "position": "Suspension Engineer"
       },
       {
@@ -137,11 +142,13 @@
         "position": "Suspension Engineer"
       },
       {
-        "name": "Daman Alam Sheikh",
+        "name": "Sheikh Daman Alam",
+        "photoUrl": "/members/sheikh-daman-alam.jpg",
         "position": "Suspension Engineer"
       },
       {
         "name": "Rokas Ramancevicius",
+        "photoUrl": "/members/rokas-ramancevicius.jpg",
         "position": "Suspension Engineer"
       },
       {
@@ -156,14 +163,17 @@
     "members": [
       {
 	"name": "Andrei Cristian Popescu",
+        "photoUrl": "/members/andrei-cristian-popescu.jpg",
         "position": "Software Engineer"
       },
       {
 	"name": "Syed Saud Humayun",
+        "photoUrl": "/members/syed-saud-humayun.jpg",
         "position": "Software Engineer"
       },
       {
         "name": "Valentina Barrera Del Gato",
+        "photoUrl": "/members/valentina-barrera-del-gato.jpg",
         "position": "Software Engineer"
       },
       {
@@ -172,14 +182,20 @@
       },
       {
         "name": "Lukas Rimkus",
+        "photoUrl": "/members/lukas-rimkus.jpg",
         "position": "Software Engineer"
       },
       {
         "name": "Ashreen Kaur",
+        "photoUrl": "/members/ashreen-kaur.jpg",
         "position": "Software Engineer"
       },
       {
         "name": "Victor Rusnac",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Ivaylo Iliev",
         "position": "Software Engineer"
       }
     ]
@@ -190,18 +206,22 @@
     "members": [
       {
         "name": "Fotis Kougionas",
+        "photoUrl": "/members/fotis-kougionas.jpg",
         "position": "Electronics Engineer"
       },
       {
         "name": "Harry Heather",
+        "photoUrl": "/members/harry-heather.jpg",
         "position": "Electronics Engineer"
       },
       {
         "name": "Harry Shakesheff",
+        "photoUrl": "/members/harry-shakesheff.jpg",
         "position": "Electronics Engineer"
       },
       {
         "name": "Mohamed Hassan",
+        "photoUrl": "/members/mohamed-hassan.jpg",
         "position": "Electronics Engineer"
       },
       {
@@ -216,6 +236,7 @@
     "members": [
       {
         "name": "Sunil Kumar",
+        "photoUrl": "/members/sunil-kumar.jpg",
         "position": "Propulsion and Power Engineer"
       },
       {
@@ -236,6 +257,7 @@
       },
       {
         "name": "Yousef Salama",
+        "photoUrl": "/members/yousef-salama.jpg",
         "position": "Propulsion and Power Engineer"
       }
     ]
@@ -246,22 +268,27 @@
     "members": [
       {
         "name": "Yeshas Kuntamalla",
+        "photoUrl": "/members/yeshas-kuntamalla.jpg",
         "position": "Magnetic Levitation Engineer"
       },
       {
         "name": "Ziad Ali",
+        "photoUrl": "/members/ziad-ali.jpg",
         "position": "Magnetic Levitation Engineer"
       },
       {
         "name": "Nishwa Nawaz",
+        "photoUrl": "/members/nishwa-nawaz.jpg",
         "position": "Magnetic Levitation Engineer"
       },
       {
         "name": "Tibault Dary-Alabaster",
+        "photoUrl": "/members/tibault-dary-alabaster.jpg",
         "position": "Magnetic Levitation Engineer"
       },
       {
         "name": "Adithya Vadakkadath",
+        "photoUrl": "/members/adithya-vadakkadath.jpg",
         "position": "Magentic Levitation Engineer"
       }
     ]
@@ -271,11 +298,13 @@
     "description": "",
     "members": [
       {
-        "name": "Llorenc Balada Gaggioli",
+        "name": "Llorenç Balada Gaggioli",
+        "photoUrl": "/members/llorenc-balada-gaggioli.jpg",
         "position": "Braking Engineer"
       },
       {
         "name": "Jai Singh Kurmi",
+        "photoUrl": "/members/jai-singh-kurmi.jpg",
         "position": "Braking Engineer"
       }
     ]
@@ -286,14 +315,17 @@
     "members": [
       {
         "name": "Afiq Iskandar Bin Md Zain",
+        "photoUrl": "/members/afiq-md-zain.jpg",
         "position": "Emergency Braking Engineer"
       },
       {
         "name": "Seungjoo Yang",
+        "photoUrl": "/members/seungjoo-yang.jpg",
         "position": "Emergency Braking Engineer"
       },
       {
         "name": "Agamani Mullick",
+        "photoUrl": "/members/agamani-mullick.jpg",
         "position": "Emergency Braking Engineer"
       },
       {
@@ -320,6 +352,7 @@
       },
       {
         "name": "Olga Sztaborowska",
+        "photoUrl": "/members/aleksandra-sztaborowska.jpg",
         "position": "Market Researhcer and Sociel Media Manager"
       }
     ]

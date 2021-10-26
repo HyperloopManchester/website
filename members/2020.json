@@ -125,6 +125,7 @@
     "members": [
       {
         "name": "Jared Hassan",
+        "photoUrl": "/members/jared-hassan.jpg",
         "position": "Statics Engineer"
       },
       {
@@ -133,10 +134,12 @@
       },
       {
         "name": "Batuhan Gerdan",
+        "photoUrl": "/members/batuhan-gerdan.jpg",
         "position": "Statics Engineer"
       },
       {
         "name": "Tina Eslami",
+        "photoUrl": "/members/tina-eslami.jpg",
         "position": "Statics Engineer"
       },
       {
@@ -151,6 +154,7 @@
     "members": [
       {
         "name": "Jakub Zemek",
+        "photoUrl": "/members/jakub-zemek.jpg",
         "position": "Simulations Engineer"
       },
       {
@@ -193,10 +197,12 @@
       },
       {
         "name": "Nicolo Cortese",
+        "photoUrl": "/members/nicolo-cortese.jpg",
         "position": "Dynamics Engineer"
       },
       {
         "name": "Abraham Levy",
+        "photoUrl": "/members/abraham-levy.jpg",
         "position": "Dynamics Engineer"
       },
       {
@@ -205,6 +211,7 @@
       },
       {
         "name": "Rutvik Perepa",
+        "photoUrl": "/members/rutvik-perepa.jpg",
         "position": "Dynamics Engineer"
       },
       {
@@ -253,6 +260,7 @@
       },
       {
         "name": "Joel Chan",
+        "photoUrl": "/members/joel-chan.jpg",
         "position": "Sponsorship Analyst"
       },
       {
