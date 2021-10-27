@@ -136,7 +136,7 @@ export default function Index({ sponsors }) {
         <p>
           Are you interested in making the fifth mode of transport a reality
           with us? For more information, contact us at:{" "}
-          <a href="mailto:hyperloopmanchester@gmail.com">
+          <a className="text-break" href="mailto:hyperloopmanchester@gmail.com">
             hyperloopmanchester@gmail.com
           </a>{" "}
           and we will get in touch.

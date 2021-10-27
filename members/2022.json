@@ -84,6 +84,37 @@
     ]
   },
   {
+    "name": "Magnetic Levitation Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Yeshas Kuntamalla",
+        "photoUrl": "/members/yeshas-kuntamalla.jpg",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Ziad Ali",
+        "photoUrl": "/members/ziad-ali.jpg",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Nishwa Nawaz",
+        "photoUrl": "/members/nishwa-nawaz.jpg",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Tibault Dary-Alabaster",
+        "photoUrl": "/members/tibault-dary-alabaster.jpg",
+        "position": "Magnetic Levitation Engineer"
+      },
+      {
+        "name": "Adithya Vadakkadath",
+        "photoUrl": "/members/adithya-vadakkadath.jpg",
+        "position": "Magentic Levitation Engineer"
+      }
+    ]
+  },
+  {
     "name": "Outer Shell Team",
     "description": "",
     "members": [
@@ -113,6 +144,11 @@
     "description": "",
     "members": [
       {
+        "name": "Merin Vallosseril",
+        "photoUrl": "",
+        "position": "Chassis and Integration Engineer"
+      },
+      {
         "name": "Jared Hassan",
         "photoUrl": "/members/jared-hassan.jpg",
         "position": "Chassis and Integration Engineer"
@@ -120,6 +156,15 @@
       {
         "name": "Philip Rosborough",
         "photoUrl": "/members/philip-rosborough.jpg",
+        "position": "Chassis and Integration Engineer"
+      },
+      {
+        "name": "Hassan Shaker",
+        "photoUrl": "/members/hassan-shaker.jpg",
+        "position": "Chassis and Integration Engineer"
+      },
+      {
+        "name": "Ritik Raj",
         "position": "Chassis and Integration Engineer"
       }
     ]
@@ -154,142 +199,6 @@
       {
         "name": "Ignas Kurtinaitis",
         "position": "Suspension Engineer"
-      }
-    ]
-  },
-  {
-    "name": "Software Team",
-    "description": "",
-    "members": [
-      {
-	"name": "Andrei Cristian Popescu",
-        "photoUrl": "/members/andrei-cristian-popescu.jpg",
-        "position": "Software Engineer"
-      },
-      {
-	"name": "Syed Saud Humayun",
-        "photoUrl": "/members/syed-saud-humayun.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Valentina Barrera Del Gato",
-        "photoUrl": "/members/valentina-barrera-del-gato.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Lawrence Hunter",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Lukas Rimkus",
-        "photoUrl": "/members/lukas-rimkus.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Ashreen Kaur",
-        "photoUrl": "/members/ashreen-kaur.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Victor Rusnac",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Ivaylo Iliev",
-        "position": "Software Engineer"
-      }
-    ]
-  },
-  {
-    "name": "Electronics Team",
-    "description": "",
-    "members": [
-      {
-        "name": "Fotis Kougionas",
-        "photoUrl": "/members/fotis-kougionas.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
-        "name": "Harry Heather",
-        "photoUrl": "/members/harry-heather.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
-        "name": "Harry Shakesheff",
-        "photoUrl": "/members/harry-shakesheff.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
-        "name": "Mohamed Hassan",
-        "photoUrl": "/members/mohamed-hassan.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
-        "name": "Georgios Theofilakos",
-        "position": "Electronics Engineer"
-      }
-    ]
-  },
-  {
-    "name": "Propulsion and Power Team",
-    "description": "",
-    "members": [
-      {
-        "name": "Sunil Kumar",
-        "photoUrl": "/members/sunil-kumar.jpg",
-        "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Abdallah Zakaria",
-        "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Muhammad Raimi Bin Mohd Affandi",
-        "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Konstantinos Margelos",
-        "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Jean-Thomas Valls",
-        "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Yousef Salama",
-        "photoUrl": "/members/yousef-salama.jpg",
-        "position": "Propulsion and Power Engineer"
-      }
-    ]
-  },
-  {
-    "name": "Magnetic Levitation Team",
-    "description": "",
-    "members": [
-      {
-        "name": "Yeshas Kuntamalla",
-        "photoUrl": "/members/yeshas-kuntamalla.jpg",
-        "position": "Magnetic Levitation Engineer"
-      },
-      {
-        "name": "Ziad Ali",
-        "photoUrl": "/members/ziad-ali.jpg",
-        "position": "Magnetic Levitation Engineer"
-      },
-      {
-        "name": "Nishwa Nawaz",
-        "photoUrl": "/members/nishwa-nawaz.jpg",
-        "position": "Magnetic Levitation Engineer"
-      },
-      {
-        "name": "Tibault Dary-Alabaster",
-        "photoUrl": "/members/tibault-dary-alabaster.jpg",
-        "position": "Magnetic Levitation Engineer"
-      },
-      {
-        "name": "Adithya Vadakkadath",
-        "photoUrl": "/members/adithya-vadakkadath.jpg",
-        "position": "Magentic Levitation Engineer"
       }
     ]
   },
@@ -335,6 +244,133 @@
       {
         "name": "Harris Asghar",
         "position": "Emergency Braking Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Propulsion and Power Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Sunil Kumar",
+        "photoUrl": "/members/sunil-kumar.jpg",
+        "position": "Technical Head - Propulsive Systems"
+      },
+      {
+        "name": "Abdallah Zakaria",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Muhammad Raimi Bin Mohd Affandi",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Ayash Mohamed Anwar",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Seohee Yang",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "George Guthrie",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Umar Khan",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Yudhit Sharma",
+        "photoUrl": "/members/yudhit-sharma.jpg",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Konstantinos Margelos",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Jean-Thomas Valls",
+        "position": "Propulsion and Power Engineer"
+      },
+      {
+        "name": "Yousef Salama",
+        "photoUrl": "/members/yousef-salama.jpg",
+        "position": "Propulsion and Power Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Software Team",
+    "description": "",
+    "members": [
+      {
+	"name": "Andrei Cristian Popescu",
+        "photoUrl": "/members/andrei-cristian-popescu.jpg",
+        "position": "Software Engineer"
+      },
+      {
+	"name": "Syed Saud Humayun",
+        "photoUrl": "/members/syed-saud-humayun.jpg",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Valentina Barrera Del Gato",
+        "photoUrl": "/members/valentina-barrera-del-gato.jpg",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Lawrence Hunter",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Lukas Rimkus",
+        "photoUrl": "/members/lukas-rimkus.jpg",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Ashreen Kaur",
+        "photoUrl": "/members/ashreen-kaur.jpg",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Victor Rusnac",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Ivaylo Iliev",
+        "photoUrl": "/members/ivaylo-iliev.jpg",
+        "position": "Software Engineer"
+      }
+    ]
+  },
+  {
+    "name": "Electronics Team",
+    "description": "",
+    "members": [
+      {
+        "name": "Fotis Kougionas",
+        "photoUrl": "/members/fotis-kougionas.jpg",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Harry Heather",
+        "photoUrl": "/members/harry-heather.jpg",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Harry Shakesheff",
+        "photoUrl": "/members/harry-shakesheff.jpg",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Mohamed Hassan",
+        "photoUrl": "/members/mohamed-hassan.jpg",
+        "position": "Electronics Engineer"
+      },
+      {
+        "name": "Georgios Theofilakos",
+        "position": "Electronics Engineer"
       }
     ]
   },

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-REMOTE=webpi
+REMOTE=hyperpi
 
 sftp $REMOTE <<EOF
-	put -fR out/* /var/www/hyperloopmanchester.com
+	put -fR out/* /var/www/hyperloop.ddns.net/
 EOF
