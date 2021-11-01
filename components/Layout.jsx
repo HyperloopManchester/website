@@ -30,21 +30,21 @@ export default function Layout({ title, description, children }) {
               <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
             </label>
           </li>
-          <Link href="/" passHref>
+          <Link href="/index.html" passHref>
             <li className="menu-brand menu-link">
               <img src="/images/brand.png" height="50" />
             </li>
           </Link>
-          <Link href="/teams/2022" passHref>
+          <Link href="/teams/2022.html" passHref>
             <li className="menu-link">Team</li>
           </Link>
-          <Link href="/news" passHref>
+          <Link href="/news.html" passHref>
             <li className="menu-link">News</li>
           </Link>
-          <Link href="/events" passHref>
+          <Link href="/events.html" passHref>
             <li className="menu-link">Events</li>
           </Link>
-          <Link href="/recruitment" passHref>
+          <Link href="/recruitment.html" passHref>
             <li className="menu-link">Recruitment</li>
           </Link>
         </ul>
@@ -58,10 +58,10 @@ export default function Layout({ title, description, children }) {
         <div className="row" style={{ justifyContent: "space-between" }}>
           <ul className={styles.footerList}>
             <li>
-              <Link href="/tos">Terms of Service</Link>
+              <Link href="/tos.html">Terms of Service</Link>
             </li>
             <li>
-              <Link href="/privacy">Privacy</Link>
+              <Link href="/privacy.html">Privacy</Link>
             </li>
             <li>
               <span>Hyperloop Manchester © 2021</span>

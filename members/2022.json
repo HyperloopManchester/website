@@ -19,24 +19,9 @@
         "position": "Mechanical Team Project Manager"
       },
       {
-        "name": "Abraham Levy",
-        "photoUrl": "/members/abraham-levy.jpg",
-        "position": "Head of Propulsion"
-      },
-      {
-        "name": "Jaime Benthem",
-        "photoUrl": "/members/jaime-benthem.jpg",
-        "position": "Head of Emergency Braking"
-      },
-      {
         "name": "Akshat Damani",
         "photoUrl": "/members/akshat-damani.jpg",
         "position": "Head of Magnetic Levitation"
-      },
-      {
-        "name": "James Ewing",
-        "photoUrl": "/members/james-ewing.jpg",
-        "position": "Head of Chassis and Integration"
       },
       {
         "name": "Jakub Zemek",
@@ -44,9 +29,9 @@
         "position": "Head of Outer Shell"
       },
       {
-        "name": "Bassel Ezz",
-        "photoUrl": "/members/bassel-ezz.jpg",
-        "position": "Head of Braking"
+        "name": "James Ewing",
+        "photoUrl": "/members/james-ewing.jpg",
+        "position": "Head of Chassis and Integration"
       },
       {
         "name": "Karolis Gudziunas",
@@ -54,32 +39,52 @@
         "position": "Head of Suspension"
       },
       {
-	"name": "Mikolaj Lenczewski",
-	"position": "Head of Software"
+        "name": "Bassel Ezz",
+        "photoUrl": "/members/bassel-ezz.jpg",
+        "position": "Head of Braking"
       },
       {
-	"name": "Ishaan Ghatak",
-	"photoUrl": "/members/ishaan-ghatak.jpg",
-	"position": "Head of Electronics"
+        "name": "Jaime Benthem",
+        "photoUrl": "/members/jaime-benthem.jpg",
+        "position": "Head of Emergency Braking"
       },
       {
-	"name": "Luís Miguel Messias",
-	"photoUrl": "/members/luis-miguel-messias.jpg",
-	"position": "Head of Business"
+        "name": "Abraham Levy",
+        "photoUrl": "/members/abraham-levy.jpg",
+        "position": "Head of Propulsion"
       },
       {
-	"name": "Hussein Janmohamed",
-	"photoUrl": "/members/hussein-janmohamed.jpg",
-	"position": "Head of Marketing and Outreach"
+        "name": "Harry Shakesheff",
+        "photoUrl": "/members/harry-shakesheff.jpg",
+        "position": "Head of Power"
+      },
+      {
+        "name": "Mikolaj Lenczewski",
+        "position": "Head of Software"
+      },
+      {
+        "name": "Ishaan Ghatak",
+        "photoUrl": "/members/ishaan-ghatak.jpg",
+        "position": "Head of Electronics"
+      },
+      {
+        "name": "Luís Miguel Messias",
+        "photoUrl": "/members/luis-miguel-messias.jpg",
+        "position": "Head of Business"
       },
       {
         "name": "Oliver Tunnicliffe",
         "position": "Treasurer"
       },
       {
-	"name": "Joel Chan",
-	"photoUrl": "/members/joel-chan.jpg",
-	"position": "Head of Sponsorship"
+        "name": "Daiv Dalal",
+        "photoUrl": "/members/daiv-dalal.jpg",
+        "position": "Head of Marketing and Outreach"
+      },
+      {
+        "name": "Joel Chan",
+        "photoUrl": "/members/joel-chan.jpg",
+        "position": "Head of Sponsorship"
       }
     ]
   },
@@ -145,7 +150,7 @@
     "members": [
       {
         "name": "Merin Vallosseril",
-        "photoUrl": "",
+        "photoUrl": "/members/merin-vallosseril.jpg",
         "position": "Chassis and Integration Engineer"
       },
       {
@@ -174,10 +179,6 @@
     "description": "",
     "members": [
       {
-        "name": "Benita Benoi",
-        "position": "Suspension Engineer"
-      },
-      {
         "name": "Zhenhao Yang",
         "photoUrl": "/members/zhenhao-yang.jpg",
         "position": "Suspension Engineer"
@@ -187,13 +188,16 @@
         "position": "Suspension Engineer"
       },
       {
+        "name": "Rokas Ramancevicius",
+        "position": "Suspension Engineer"
+      },
+      {
         "name": "Sheikh Daman Alam",
         "photoUrl": "/members/sheikh-daman-alam.jpg",
         "position": "Suspension Engineer"
       },
       {
-        "name": "Rokas Ramancevicius",
-        "photoUrl": "/members/rokas-ramancevicius.jpg",
+        "name": "Benita Benoi",
         "position": "Suspension Engineer"
       },
       {
@@ -248,7 +252,7 @@
     ]
   },
   {
-    "name": "Propulsion and Power Team",
+    "name": "Propulsion Team",
     "description": "",
     "members": [
       {
@@ -262,23 +266,8 @@
       },
       {
         "name": "Muhammad Raimi Bin Mohd Affandi",
+        "photoUrl": "/members/raimi-affandi.jpg",
         "position": "Propulsion and Power Engineer"
-      },
-      {
-        "name": "Ayash Mohamed Anwar",
-        "position": "Power Engineer"
-      },
-      {
-        "name": "Seohee Yang",
-        "position": "Power Engineer"
-      },
-      {
-        "name": "George Guthrie",
-        "position": "Power Engineer"
-      },
-      {
-        "name": "Umar Khan",
-        "position": "Power Engineer"
       },
       {
         "name": "Yudhit Sharma",
@@ -287,6 +276,7 @@
       },
       {
         "name": "Konstantinos Margelos",
+        "photoUrl": "/members/konstantinos-margelos.jpg",
         "position": "Propulsion and Power Engineer"
       },
       {
@@ -301,26 +291,36 @@
     ]
   },
   {
+    "name": "Power Team",
+    "description": "",
+    "members": [
+      {
+        "name": "George Guthrie",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Seohee Jang",
+        "photoUrl": "/members/seohee-jang.jpg",
+        "position": "Power Engineer"
+      },
+      {
+        "name": "Ayash Mohammed Anwar",
+        "position": "Power Engineer"
+      }
+    ]
+  },
+  {
     "name": "Software Team",
     "description": "",
     "members": [
       {
-	"name": "Andrei Cristian Popescu",
+        "name": "Andrei Cristian Popescu",
         "photoUrl": "/members/andrei-cristian-popescu.jpg",
         "position": "Software Engineer"
       },
       {
-	"name": "Syed Saud Humayun",
+        "name": "Syed Saud Humayun",
         "photoUrl": "/members/syed-saud-humayun.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Valentina Barrera Del Gato",
-        "photoUrl": "/members/valentina-barrera-del-gato.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Lawrence Hunter",
         "position": "Software Engineer"
       },
       {
@@ -330,11 +330,20 @@
       },
       {
         "name": "Ashreen Kaur",
-        "photoUrl": "/members/ashreen-kaur.jpg",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Lawrence Hunter",
+        "photoUrl": "/members/lawrence-hunter.jpg",
         "position": "Software Engineer"
       },
       {
         "name": "Victor Rusnac",
+        "position": "Software Engineer"
+      },
+      {
+        "name": "Valentina Barrera",
+        "photoUrl": "/members/valentina-barrera.jpg",
         "position": "Software Engineer"
       },
       {
@@ -354,22 +363,17 @@
         "position": "Electronics Engineer"
       },
       {
+        "name": "Georgios Theofilakos",
+        "position": "Electronics Engineer"
+      },
+      {
         "name": "Harry Heather",
         "photoUrl": "/members/harry-heather.jpg",
         "position": "Electronics Engineer"
       },
       {
-        "name": "Harry Shakesheff",
-        "photoUrl": "/members/harry-shakesheff.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
         "name": "Mohamed Hassan",
         "photoUrl": "/members/mohamed-hassan.jpg",
-        "position": "Electronics Engineer"
-      },
-      {
-        "name": "Georgios Theofilakos",
         "position": "Electronics Engineer"
       }
     ]
@@ -379,6 +383,11 @@
     "description": "",
     "members": [
       {
+        "name": "Aleksandra Sztaborowska",
+        "photoUrl": "/members/aleksandra-sztaborowska.jpg",
+        "position": "Market Researcher and Sociel Media Manager"
+      },
+      {
         "name": "Anish Shah",
         "position": "Sponsorship Analyst"
       },
@@ -387,9 +396,9 @@
         "position": "Sponsorship Analyst"
       },
       {
-        "name": "Olga Sztaborowska",
-        "photoUrl": "/members/aleksandra-sztaborowska.jpg",
-        "position": "Market Researhcer and Sociel Media Manager"
+        "name": "Tomáš Závodný",
+        "photoUrl": "/members/tomas-zavodny.jpg",
+        "position": "Renderer"
       }
     ]
   },
@@ -408,6 +417,10 @@
         "isFoundingMember": true,
         "photoUrl": "/members/batuhan-gerdan.jpg",
         "position": "Co-Founder and Team Advisor"
+      },
+      {
+        "name": "Danilo Mariano",
+        "position": "Business Team Advisor"
       }
     ]
   },
