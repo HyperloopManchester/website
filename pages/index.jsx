@@ -49,6 +49,7 @@ export default function Index({ sponsors }) {
         id="slideshow"
         delay={slideShowDelay}
         sources={titleSlideSources}
+        isFixed
         className={styles.slideShow}
       >
         <div

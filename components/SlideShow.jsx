@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import styles from "./SlideShow.module.css";
-
-export default function SlideShow({ id, delay, sources, className, children }) {
+export default function SlideShow({ id, delay, sources, isFixed, className, children }) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
   useEffect(() => {
@@ -15,7 +13,7 @@ export default function SlideShow({ id, delay, sources, className, children }) {
     <div
       id={id ?? ""}
       style={{
-        background: `center / cover url(${sources[currentSlideIndex]}) no-repeat`,
+        background: `center / cover url(${sources[currentSlideIndex]}) no-repeat ${isFixed && "fixed" || ""}`,
       }}
       className={className}
     >
