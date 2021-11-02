@@ -138,6 +138,11 @@
         "position": "Outer Shell Engineer"
       },
       {
+        "name": "Mika Davies",
+        "photoUrl": "/members/mika-davies.jpg",
+        "position": "Outer Shell Engineer"
+      },
+      {
         "name": "Jaikrishna Ramachandran",
         "photoUrl": "/members/jaikrishna-ramachandran.jpg",
         "position": "Outer Shell Engineer"
@@ -218,6 +223,16 @@
       {
         "name": "Jai Singh Kurmi",
         "photoUrl": "/members/jai-singh-kurmi.jpg",
+        "position": "Braking Engineer"
+      },
+      {
+        "name": "Gary Zhang",
+        "photoUrl": "/members/gary-zhang.jpg",
+        "position": "Braking Engineer"
+      },
+      {
+        "name": "Balint Macsuga",
+        "photoUrl": "/members/balint-macsuga.jpg",
         "position": "Braking Engineer"
       }
     ]
