@@ -59,12 +59,15 @@ export default function Index({ sponsors }) {
             margin: "4em auto",
           }}
         >
-          <h2 style={{ wordBreak: "break-word", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-fg-accent)" }}>
             THE STUDENT-LED TRANSPORT REVOLUTION
-          </h2>
-          <h2 style={{ wordBreak: "break-word", fontWeight: "bolder", color: "var(--theme-bg)" }}>
-            EHW 2021 Finalist, Top 5 in Best Levitation Design in EHW 2021
-          </h2>
+          </h3>
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+            EHW 2021 Finalist
+          </h3>
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+            Top 5 in Best Levitation Design in EHW 2021
+          </h3>
         </div>
       </SlideShow>
 
@@ -122,6 +125,11 @@ export default function Index({ sponsors }) {
           </a>
         ))}
       </div>
+
+     <h2>
+       Additionally, you can support us on <a href="https://gofund.me/f598a6c9">GoFundMe</a>
+     </h2>
+
 
       <div className={`wide-container ${styles.separator}`}>
         Become a partner

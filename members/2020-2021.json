@@ -7,13 +7,19 @@
         "name": "Hakan Okten",
         "isFoundingMember": true,
         "photoUrl": "/members/hakan-okten.jpg",
-        "position": "Technical Team Advisor"
+        "position": "Co-Founder, Co-President, Technical Team Advisor"
       },
       {
         "name": "Batuhan Gerdan",
         "isFoundingMember": true,
         "photoUrl": "/members/batuhan-gerdan.jpg",
-        "position": "Mechanical Team Director"
+        "position": "Co-Founder, Co-President, Mechanical Team Director"
+      },
+      {
+        "name": "Oliver Laryea",
+        "isFoundingMember": true,
+        "photoUrl": "/members/oliver-laryea.jpg",
+        "position": "Business and Outreach Director"
       },
       {
         "name": "Thomas Simpson",
@@ -24,31 +30,6 @@
         "name": "Abraham Levy",
         "photoUrl": "/members/abraham-levy.jpg",
         "position": "Mechanical Project Director"
-      },
-      {
-        "name": "Furqan Shahzad",
-        "photoUrl": "/members/furqan-shahzad.jpg",
-        "position": "Head of Suspension"
-      },
-      {
-        "name": "Tina Eslami",
-        "photoUrl": "/members/tina-eslami.jpg",
-        "position": "Head of Chassis and Integration"
-      },
-      {
-        "name": "Jakub Zemek",
-        "photoUrl": "/members/jakub-zemek.jpg",
-        "position": "Head of Outer Shell"
-      },
-      {
-        "name": "Nicolo Cortese",
-        "photoUrl": "/members/nicolo-cortese.jpg",
-        "position": "Head of Propulsion"
-      },
-      {
-        "name": "Louis Gallagher",
-        "photoUrl": "/members/louis-gallagher.jpg",
-        "position": "Head of Braking"
       },
       {
         "name": "Sakircan Beyazit",
@@ -63,10 +44,21 @@
         "position": "Head of Power"
       },
       {
-        "name": "Oliver Laryea",
+        "name": "Tina Eslami",
+        "photoUrl": "/members/tina-eslami.jpg",
+        "position": "Women in Engineering Representative"
+      }
+    ]
+  },
+  {
+    "name": "Technical Teams",
+    "description": "",
+    "members": [
+      {
+        "name": "Hakan Okten",
         "isFoundingMember": true,
-        "photoUrl": "/members/oliver-laryea.jpg",
-        "position": "Business and Outreach Director"
+        "photoUrl": "/members/hakan-okten.jpg",
+        "position": "Technical Team Advisor"
       }
     ]
   },
@@ -109,6 +101,41 @@
     "name": "Mechanical Team",
     "description": "",
     "members": [
+      {
+        "name": "Thomas Simpson",
+        "photoUrl": "/members/thomas-simpson.jpg",
+        "position": "Lead Mechanical Engineer"
+      },
+      {
+        "name": "Abraham Levy",
+        "photoUrl": "/members/abraham-levy.jpg",
+        "position": "Mechanical Project Director"
+      },
+      {
+        "name": "Furqan Shahzad",
+        "photoUrl": "/members/furqan-shahzad.jpg",
+        "position": "Head of Suspension"
+      },
+      {
+        "name": "Tina Eslami",
+        "photoUrl": "/members/tina-eslami.jpg",
+        "position": "Head of Chassis and Integration"
+      },
+      {
+        "name": "Jakub Zemek",
+        "photoUrl": "/members/jakub-zemek.jpg",
+        "position": "Head of Outer Shell"
+      },
+      {
+        "name": "Nicolo Cortese",
+        "photoUrl": "/members/nicolo-cortese.jpg",
+        "position": "Head of Propulsion"
+      },
+      {
+        "name": "Louis Gallagher",
+        "photoUrl": "/members/louis-gallagher.jpg",
+        "position": "Head of Braking"
+      },
       {
         "name": "James Ewing",
         "photoUrl": "/members/james-ewing.jpg",
@@ -210,6 +237,12 @@
     "description": "",
     "members": [
       {
+        "name": "Hak Jin Sim",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hak-jin-sim.jpg",
+        "position": "Head of Power"
+      },
+      {
         "name": "Georgio Bou Younes",
         "position": "Power Engineer"
       }
@@ -220,6 +253,12 @@
     "description": "",
     "members": [
       {
+        "name": "Sakircan Beyazit",
+        "isFoundingMember": true,
+        "photoUrl": "/members/sakircan-beyazit.jpg",
+        "position": "Head of Research"
+      },
+      {
         "name": "Amir Kidwai",
         "position": "Research Analyst"
       }
@@ -229,6 +268,12 @@
     "name": "Business and Outreach Teams",
     "description": "",
     "members": [
+      {
+        "name": "Oliver Laryea",
+        "isFoundingMember": true,
+        "photoUrl": "/members/oliver-laryea.jpg",
+        "position": "Business and Outreach Director"
+      },
       {
         "name": "Danwood Rubani",
         "position": "Co-Head of Sponsorship"

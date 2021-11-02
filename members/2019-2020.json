@@ -4,16 +4,40 @@
     "description": "",
     "members": [
       {
+        "name": "Hakan Okten",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hakan-okten.jpg",
+        "position": "Co-Founder, Co-President, Head of Electronics"
+      },
+      {
+        "name": "Batuhan Gerdan",
+        "isFoundingMember": true,
+        "photoUrl": "/members/batuhan-gerdan.jpg",
+        "position": "Co-Founder, Co-President, Statics Engineer"
+      },
+      {
+        "name": "Nicole Morgan",
+        "isFoundingMember": true,
+        "photoUrl": "/members/nicole-morgan.jpg",
+        "position": "Business and Outreach Director"
+      },
+      {
+        "name": "Dilara Altuntas",
+        "isFoundingMember": true,
+        "photoUrl": "/members/dilara-altuntas.jpg",
+        "position": "Co-Founder, Secretary"
+      },
+      {
         "name": "André Neves",
         "isFoundingMember": true,
         "photoUrl": "/members/andre-neves.jpg",
         "position": "Technical Team Director"
       },
       {
-        "name": "Hakan Okten",
+        "name": "Oliver Laryea",
         "isFoundingMember": true,
-        "photoUrl": "/members/hakan-okten.jpg",
-        "position": "Co-Founder and Co-President, Head of Electronics"
+        "photoUrl": "/members/oliver-laryea.jpg",
+        "position": "Business Development Director"
       },
       {
         "name": "András Geiszl",
@@ -50,18 +74,18 @@
         "isFoundingMember": true,
         "photoUrl": "/members/sakircan-beyazit.jpg",
         "position": "Head of Research"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Technical Teams",
+    "description": "",
+    "members": [
       {
-        "name": "Nicole Morgan",
+        "name": "André Neves",
         "isFoundingMember": true,
-        "photoUrl": "/members/nicole-morgan.jpg",
-        "position": "Business & Outreach Director"
-      },
-      {
-        "name": "Oliver Laryea",
-        "isFoundingMember": true,
-        "photoUrl": "/members/oliver-laryea.jpg",
-        "position": "Business Development Director"
+        "photoUrl": "/members/andre-neves.jpg",
+        "position": "Technical Team Director"
       }
     ]
   },
@@ -69,6 +93,18 @@
     "name": "Software and Electronics Team",
     "description": "",
     "members": [
+      {
+        "name": "Hakan Okten",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hakan-okten.jpg",
+        "position": "Co-Founder, Co-President, Head of Electronics"
+      },
+      {
+        "name": "András Geiszl",
+        "isFoundingMember": true,
+        "photoUrl": "/members/andras-geiszl.jpg",
+        "position": "Head of Software"
+      },
       {
         "name": "Samyak Jain",
         "position": "Electronics Engineer"
@@ -124,6 +160,12 @@
     "description": "",
     "members": [
       {
+        "name": "Franka Grazdani",
+        "isFoundingMember": true,
+        "photoUrl": "/members/franka-grazdani.jpg",
+        "position": "Head of Statics"
+      },
+      {
         "name": "Jared Hassan",
         "photoUrl": "/members/jared-hassan.jpg",
         "position": "Statics Engineer"
@@ -153,6 +195,12 @@
     "description": "",
     "members": [
       {
+        "name": "Gregoris Malekos",
+        "isFoundingMember": true,
+        "photoUrl": "/members/gregoris-malekos.jpg",
+        "position": "Head of Simulations"
+      },
+      {
         "name": "Jakub Zemek",
         "photoUrl": "/members/jakub-zemek.jpg",
         "position": "Simulations Engineer"
@@ -171,6 +219,18 @@
     "name": "Dynamics and Power Team",
     "description": "",
     "members": [
+      {
+        "name": "Raihan Noushad",
+        "isFoundingMember": true,
+        "photoUrl": "/members/raihan-noushad.jpg",
+        "position": "Head of Dynamics"
+      },
+      {
+        "name": "Hak Jin Sim",
+        "isFoundingMember": true,
+        "photoUrl": "/members/hak-jin-sim.jpg",
+        "position": "Head of Power"
+      },
       {
         "name": "Matthew Payne",
         "position": "Lead Dynamics Engineer"
@@ -225,6 +285,12 @@
     "description": "",
     "members": [
       {
+        "name": "Sakircan Beyazit",
+        "isFoundingMember": true,
+        "photoUrl": "/members/sakircan-beyazit.jpg",
+        "position": "Head of Research"
+      },
+      {
         "name": "Barbora Salcman",
         "position": "Research Analyst"
       },
@@ -250,6 +316,18 @@
     "name": "Business and Outreach Teams",
     "description": "",
     "members": [
+      {
+        "name": "Nicole Morgan",
+        "isFoundingMember": true,
+        "photoUrl": "/members/nicole-morgan.jpg",
+        "position": "Business and Outreach Director"
+      },
+      {
+        "name": "Oliver Laryea",
+        "isFoundingMember": true,
+        "photoUrl": "/members/oliver-laryea.jpg",
+        "position": "Business Development Director"
+      },
       {
         "name": "Claudia Lee",
         "position": "Marketing Analyst"

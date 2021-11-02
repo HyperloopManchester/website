@@ -32,14 +32,17 @@ export async function getStaticProps({ params }) {
 
 function memberCard({ name, position, photoUrl, isFoundingMember }, index) {
   return (
-    <div key={index}>
+    <div key={index} className="member-card">
       <div className="text-center">
         {photoUrl && (
           <img src={photoUrl} className="responsive-image member-photo" />
         )}
       </div>
-      <div className="text-center">
-        <h2>{name}</h2>
+      <div className="text-center text-break">
+        <span style={{ color: "var(--theme-bg-accent)", fontWeight: "bolder" }}>{name}</span>
+        <br />
+        {isFoundingMember && <span style={{ color: "var(--theme-bg-accent)" }}>Founding Member</span>}
+        {isFoundingMember && <br />}
         <span>{position}</span>
       </div>
     </div>

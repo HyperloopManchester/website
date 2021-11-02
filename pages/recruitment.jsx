@@ -14,7 +14,8 @@ export default function Recruitment() {
         positions. Please apply using the following{" "}
         <a href={FORM_URL}>Google Forms link</a>.
       </StyledParagraph>
-      <StyledParagraph id="propulsion" title="Propulsion">
+    {/*
+    <StyledParagraph id="propulsion" title="Propulsion">
         Responsible for managing the propulsion subsystem which consists of a
         Linear Induction Motor (LIM) as means of propulsion. Sample activities
         performed within the team are running simulations to output the power
@@ -45,6 +46,7 @@ export default function Recruitment() {
           <li>Knowledge of general mechanical / dynamic elements (castings, gearboxes, bearings, etc.)</li>
         </ul>
       </StyledParagraph>
+      */}
       <StyledParagraph id="electronics" title="Electronics">
         The electronics team is responsible for the development of all
         electronic systems contained onboard. This includes PCB design and
@@ -61,6 +63,7 @@ export default function Recruitment() {
           <li>MATLAB</li>
         </ul>
       </StyledParagraph>
+      {/*
       <StyledParagraph id="maglev" title="Maglev">
         The maglev team is an essential part to the hyperloop pod. We are
         looking for students who are passionate about the concept and fast
@@ -94,6 +97,7 @@ export default function Recruitment() {
           <li>Composite manufacturing experience</li>
         </ul>
       </StyledParagraph>
+      */}
       <StyledParagraph id="emergency-braking" title="Emergency Braking">
         Responsible for the complete design, simulation, manufacturing and
         finally testing of the emergency braking system of the pod. You will
@@ -141,6 +145,7 @@ export default function Recruitment() {
           <li>ANSYS Maxwell</li>
         </ul>
       </StyledParagraph>
+      {/*
       <StyledParagraph id="sponsorship" title="Sponsorship">
         I need an aggressor who will hunt down target sponsor companies for
         money, software, and a legal logo. I need them to be able to contact
@@ -156,6 +161,7 @@ export default function Recruitment() {
           <li>Able to contact sponsors located in the UK</li>
         </ul>
       </StyledParagraph>
+      */}
       <StyledParagraph id="marketing" title="Outreach & Marketing">
         Outreach has two main areas of focus: helping current university
         students to grow, and engaging young people in STEM. Outreach organises
@@ -178,6 +184,7 @@ export default function Recruitment() {
           <li>Event organisation and management experience</li>
         </ul>
       </StyledParagraph>
+      {/*
       <StyledParagraph id="rendering" title="Rendering">
         Do you have previous experience with rendering softwares such as
         blender, Maya 3DS Max Design, or any other softwares used for creating
@@ -192,6 +199,7 @@ export default function Recruitment() {
           <li>3D Design software experience</li>
         </ul>
       </StyledParagraph>
+      */}
     </Layout>
   );
 }

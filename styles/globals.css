@@ -160,7 +160,12 @@ hr {
   word-wrap: break-word;
 }
 
-.member-photo {
+.member-card {
   width: 16em;
+}
+
+.member-photo {
   height: 16em;
+  width: 16em;
+  border: 8px solid var(--theme-bg-accent);
 }
