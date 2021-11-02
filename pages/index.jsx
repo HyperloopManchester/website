@@ -4,7 +4,7 @@ import Layout from "../components/Layout.jsx";
 import StyledParagraph from "../components/StyledParagraph.jsx";
 import SlideShow from "../components/SlideShow.jsx";
 
-import { getAllSponsors } from "../lib/sponsors.js";
+import { BRONZE, SILVER, GOLD, PLATINUM, getAllSponsors } from "../lib/sponsors.js";
 
 import styles from "./index.module.css";
 
@@ -14,6 +14,16 @@ export async function getStaticProps() {
       sponsors: getAllSponsors(),
     },
   };
+}
+
+function SponsorLogo({ name, rank, logoUrl, websiteUrl }) {
+  return (
+    <img
+      src={logoUrl}
+      alt={name}
+      className="responsive-image"
+      style={{ padding: "1em 4em 1em" }} />
+  );
 }
 
 export default function Index({ sponsors }) {
@@ -106,14 +116,9 @@ export default function Index({ sponsors }) {
 
       <div className={`wide-container ${styles.separator}`}>Our sponsors</div>
       <div className="row">
-        {sponsors.map(({ name, rank, logoUrl, url }, index) => (
-          <a key={index} target="_blank" href={url} rel="noopener noreferrer">
-            <img
-              src={logoUrl}
-              alt={name}
-              className="responsive-image"
-              style={{ padding: "1em 4em 1em" }}
-            />
+        {sponsors.map((sponsor, index) => (
+          <a key={index} target="_blank" href={sponsor.websiteUrl} rel="noopener noreferrer">
+            {SponsorLogo(sponsor)}
           </a>
         ))}
       </div>
