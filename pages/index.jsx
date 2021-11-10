@@ -22,7 +22,7 @@ function SponsorLogo({ name, rank, logoUrl, websiteUrl }) {
       src={logoUrl}
       alt={name}
       className="responsive-image"
-      style={{ padding: "1em 4em 1em" }} />
+      style={{ maxWidth: "496px", padding: "1em 4em 1em" }} />
   );
 }
 
