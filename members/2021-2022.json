@@ -103,8 +103,8 @@
         "position": "Magnetic Levitation Engineer"
       },
       {
-        "name": "Nishwa Nawaz",
-        "photoUrl": "/members/nishwa-nawaz.jpg",
+        "name": "Vaibhav Sharma",
+        "photoUrl": "/members/vaibhav-sharma.jpg",
         "position": "Magnetic Levitation Engineer"
       },
       {
@@ -197,12 +197,18 @@
         "position": "Suspension Engineer"
       },
       {
-        "name": "Sheikh Daman Alam",
-        "photoUrl": "/members/sheikh-daman-alam.jpg",
+        "name": "Afiq Nor Kamil",
+        "photoUrl": "/members/afiq-nor-kamil.jpg",
         "position": "Suspension Engineer"
       },
       {
-        "name": "Benita Benoi",
+        "name": "Pascal Lai",
+        "photoUrl": "/members/pascal-lai.jpg",
+        "position": "Suspension Engineer"
+      },
+      {
+        "name": "Daman Alam Sheikh",
+        "photoUrl": "/members/sheikh-daman-alam.jpg",
         "position": "Suspension Engineer"
       },
       {
@@ -234,6 +240,14 @@
         "name": "Balint Macsuga",
         "photoUrl": "/members/balint-macsuga.jpg",
         "position": "Braking Engineer"
+      },
+      {
+        "name": "Mohamed  Abdelsamad",
+        "position": "Braking Engineer"
+      },
+      {
+        "name": "Brilliant Purnawan",
+        "position": "Braking Engineer"
       }
     ]
   },
@@ -248,7 +262,6 @@
       },
       {
         "name": "Seungjoo Yang",
-        "photoUrl": "/members/seungjoo-yang.jpg",
         "position": "Emergency Braking Engineer"
       },
       {
@@ -334,11 +347,6 @@
         "position": "Software Engineer"
       },
       {
-        "name": "Syed Saud Humayun",
-        "photoUrl": "/members/syed-saud-humayun.jpg",
-        "position": "Software Engineer"
-      },
-      {
         "name": "Lukas Rimkus",
         "photoUrl": "/members/lukas-rimkus.jpg",
         "position": "Software Engineer"
@@ -350,15 +358,6 @@
       {
         "name": "Lawrence Hunter",
         "photoUrl": "/members/lawrence-hunter.jpg",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Victor Rusnac",
-        "position": "Software Engineer"
-      },
-      {
-        "name": "Valentina Barrera",
-        "photoUrl": "/members/valentina-barrera.jpg",
         "position": "Software Engineer"
       },
       {

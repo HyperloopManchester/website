@@ -69,6 +69,11 @@ export default function Index({ sponsors }) {
           <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
             Top 5 in Best Levitation Design in EHW 2021
           </h3>
+          {/*
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+            Founding team of Hyperloop UK
+          </h3>
+          */}
         </div>
       </SlideShow>
 

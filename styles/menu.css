@@ -34,12 +34,12 @@
     display: none;
   }
 
-  .menu-toggle ~ #menu li:first-child {
-    display: inline-block;
-  }
-
   .menu-toggle:checked ~ #menu li {
     display: block;
+  }
+
+  .menu-toggle-label {
+    display: inline-block;
   }
 }
 
@@ -49,7 +49,7 @@
     display: inline-block;
   }
 
-  .navbar-menu li:first-child {
+  .menu-toggle-label {
     display: none;
   }
 }

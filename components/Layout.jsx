@@ -25,17 +25,12 @@ export default function Layout({ title, description, children }) {
           id="menu-toggler"
         />
         <ul className="navbar-menu" id="menu">
-          <li>
-            <label className="menu-toggle-label" htmlFor="menu-toggler">
-              <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
-            </label>
-          </li>
           <Link href="/index.html" passHref>
             <li className="menu-brand menu-link">
               <img src="/images/brand.png" height="50" />
             </li>
           </Link>
-          <Link href="/teams/2021-2022.html" passHref>
+         <Link href="/teams/2021-2022.html" passHref>
             <li className="menu-link">Teams</li>
           </Link>
           <Link href="/news.html" passHref>
@@ -48,6 +43,9 @@ export default function Layout({ title, description, children }) {
             <li className="menu-link">Recruitment</li>
           </Link>
         </ul>
+          <label className="menu-toggle-label" htmlFor="menu-toggler">
+            <img className="menu-toggle-icon" src="/menu.svg" alt="menu" />
+          </label>
       </nav>
       <hr />
       <main>
