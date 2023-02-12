@@ -9,7 +9,7 @@ export default function TeamNavbar({ teams }) {
     <div>
       <div className="row row-left" style={{ padding: "0 1em" }}>
         {teams.map(({ year }, idx) => (
-          <Link key={idx} href={`/teams/${year}.html`} passHref>
+          <Link key={idx} href={`/teams/${year}`} passHref>
             <button className={styles.yearButton}>{year}</button>
           </Link>
         ))}
