@@ -37,12 +37,13 @@ function memberCard({ name, position, photoUrl, isFoundingMember }, index) {
         {photoUrl && (
           <img src={photoUrl} className="responsive-image member-photo" />
         )}
+        <p></p>
       </div>
       <div className="text-center text-break">
-        <span style={{ color: "var(--theme-bg-accent)", fontWeight: "bolder" }}>{name}</span>
-        <br />
+        <span style={{ color: "var(--theme-bg-accent)", fontWeight: "bolder"}}>{name}</span>
+        <br/>
         {isFoundingMember && <span style={{ color: "var(--theme-bg-accent)" }}>Founding Member</span>}
-        {isFoundingMember && <br />}
+        {isFoundingMember && <br/>}
         <span>{position}</span>
       </div>
     </div>
@@ -53,8 +54,13 @@ export default function Team({ teams, current }) {
   return (
     <Layout title={current.year}>
       <TeamNavbar teams={teams} />
+      
+    <div className={`wide-container ${styles.separator}`}>
+      Committee
+    </div>
       {current.teams.map(({ name, description, members }, idx) => (
         <div key={idx}>
+          
           <div className={`wide-container ${styles.separator}`}>{name}</div>
           <div className="row">
             {members.filter(({ photoUrl }) => photoUrl).map(memberCard)}

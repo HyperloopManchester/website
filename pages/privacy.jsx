@@ -428,8 +428,10 @@ export default function News() {
           {" "}
           If you would like to contact us to understand more about this
           Policy or wish to contact us concerning any matter relating to
-          individual rights and your Personal Information, you may do so via
-          the contact form{" "}
+          individual rights and your Personal Information, you may do so via email at{" "}
+          <a href="mailto:hyperloopmanchester@gmail.com">
+            hyperloopmanchester@gmail.com
+          </a>
         </p>
         <p>
           This document was last updated on September 21, 2020

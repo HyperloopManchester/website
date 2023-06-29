@@ -1,14 +1,15 @@
 :root {
-  --theme-bg: #eeeeee;
-  --theme-bg-accent: #41024c;
-  --theme-fg: #41024c;
-  --theme-fg-accent: #fed317;
-  --theme-text: #111111;
-  --theme-link: slateblue;
-  --theme-link-hover: slateblue;
-  --theme-h1: #41024c;
-  --theme-h2: #41024c;
+  --theme-bg: #1f021d;
+  --theme-bg-accent: #fcc402;
+  --theme-fg: #fed317;
+  --theme-fg-accent: #eeeeee;
+  --theme-text: #eeeeee;
+  --theme-link: #fcc402;
+  --theme-link-hover: #f3e192;
+  --theme-h1: #eeeeee;
+  --theme-h2: #eeeeee;
   --theme-h3: #41024c;
+  --nav-bg: #000000;
 }
 
 body {
@@ -23,12 +24,7 @@ button {
 }
 
 nav {
-  background: var(--theme-bg);
-  color: var(--theme-text);
-}
-
-nav a {
-  color: var(--theme-text);
+  background: var(--theme-text);
 }
 
 a {
@@ -49,3 +45,4 @@ h5,
 h6 {
   color: var(--theme-h3);
 }
+

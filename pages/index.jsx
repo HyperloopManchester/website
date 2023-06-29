@@ -55,18 +55,29 @@ export default function Index({ sponsors }) {
         <div
           className="text-center"
           style={{
-            backgroundColor: "rgba(0,0,0,.5)",
-            width: "70%",
-            margin: "4em auto",
-          }}
-        >
+            backgroundColor: "rgba(0,0,0,.0)",
+            width: "100%",
+            margin: "6em auto"
+          }}> 
+          <h3 className="modal-body"style={{ wordBreak: "break-word", fontSize: "2.5em", fontWeight: "bolder", color: "var(--theme-fg-accent)"}}>
+            
+          </h3>
+          HYPERLOOP MANCHESTER <br></br>
+          &#129171;
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.25em", fontWeight: "bolder", color: "var(--theme-fg)" }}>
+          </h3>
+          
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.25em", fontWeight: "bolder", color: "var(--theme-fg)" }}>
+            
+          </h3>
+          {/*
           <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-fg-accent)" }}>
             THE STUDENT-LED TRANSPORT REVOLUTION
           </h3>
-          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-fg)" }}>
             EHW 2021 Finalist
           </h3>
-          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-bg)" }}>
+          <h3 style={{ wordBreak: "break-word", fontSize: "1.5em", fontWeight: "bolder", color: "var(--theme-fg)" }}>
             Top 5 in Best Levitation Design in EHW 2021
           </h3>
           {/*
@@ -77,7 +88,7 @@ export default function Index({ sponsors }) {
         </div>
       </SlideShow>
 
-      <StyledParagraph id="about" title="Who are we?">
+      <StyledParagraph id="about" title="WHO ARE WE?">
         <p>
           Hyperloop Manchester is a student-led Hyperloop project organization
           aiming to compete in the Hyperloop competitions organized by SpaceX or
@@ -90,10 +101,10 @@ export default function Index({ sponsors }) {
           and backgrounds. Furthermore, the team consists of three main
           divisions and eight subdivisions.
         </p>
-        <img src="/images/team.jpg" className="responsive-image" />
+        <img src="/images/team2022.jpg" className="responsive-image" />
       </StyledParagraph>
 
-      <StyledParagraph id="about-hyperloop" title="What is Hyperloop?">
+      <StyledParagraph id="about-hyperloop" title="WHAT IS HYPERLOOP?">
         <p>
           Hyperloop is a proposed high-speed transportation system in which
           specialised pods are accelerated through a low-pressure tube to
@@ -111,71 +122,18 @@ export default function Index({ sponsors }) {
         />
       </StyledParagraph>
 
-      <StyledParagraph id="innovation" title="We always work and inovate">
+      <StyledParagraph id="map" title="MAP OF THE REVOLUTION">
+        <img src="/images/map.jpg" className="responsive-image" />
+      </StyledParagraph>
+
+      <StyledParagraph id="innovation" title="INNOVATION STARTS HERE">
         <SlideShow
           delay={slideShowDelay}
           sources={podComponentSources}
           className={styles.componentSlideShow}
         />
-      </StyledParagraph>
+        </StyledParagraph>
 
-      <StyledParagraph id="map" title="Map of the revolution">
-        <img src="/images/map.jpg" className="responsive-image" />
-      </StyledParagraph>
-
-      <div className={`wide-container ${styles.separator}`}>Our sponsors</div>
-      <div className="row">
-        {sponsors.map((sponsor, index) => (
-          <a key={index} target="_blank" href={sponsor.websiteUrl} rel="noopener noreferrer">
-            {SponsorLogo(sponsor)}
-          </a>
-        ))}
-      </div>
-
-     <h2>
-       Additionally, you can support us on <a href="https://gofund.me/f598a6c9">GoFundMe</a>
-     </h2>
-
-
-      <div className={`wide-container ${styles.separator}`}>
-        Become a partner
-      </div>
-      <StyledParagraph
-        id="become-partner"
-        title="Join the Team – Become a Partner"
-      >
-        <p>
-          The Hyperloop concept itself is an innovation pushing the very
-          boundaries of transportation technology; therefore, it only makes
-          sense that our vision and ideas are of the same magnitude. Our goal is
-          to build the fastest pod we can and win the Hyperloop Pod Competition.
-          To achieve this, we rely on the valuable contributions from our
-          sponsors, who support us in technical, material and financial matters.
-        </p>
-        <p>
-          Are you interested in making the fifth mode of transport a reality
-          with us? For more information, contact us at:{" "}
-          <a className="text-break" href="mailto:hyperloopmanchester@gmail.com">
-            hyperloopmanchester@gmail.com
-          </a>{" "}
-          and we will get in touch.
-        </p>
-        <p>
-          Please view our Hyperloop Manchester info pack by clicking the button
-          below.
-        </p>
-        <br />
-        <div className="text-center">
-          <a
-            target="_blank"
-            href="/sponsor-pack.pdf"
-            rel="noopener noreferrer"
-            className={styles.button}
-          >
-            Open Info Pack
-          </a>
-        </div>
-      </StyledParagraph>
     </Layout>
   );
 }

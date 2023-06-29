@@ -63,11 +63,11 @@
 }
 
 .menu-link {
-  color: var(--theme-bg);
+  color: var(--theme-text);
   opacity: 1;
 }
 
 .menu-link:hover {
-  color: var(--theme-fg-accent);
+  color: var(--theme-fg);
   opacity: 1;
 }
