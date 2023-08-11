@@ -1,0 +1,1637 @@
+-- Logs begin at Sun 2023-02-05 20:21:58 UTC, end at Thu 2023-06-29 09:10:01 UTC. --
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root       402232 Jun 29 06:57 usr/lib64/libpcre.so.1.2.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root       140864 Jun 29 06:57 usr/lib64/libpthread-2.26.so
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           18 Jun 29 06:57 usr/lib64/libpthread.so.0 -> libpthread-2.26.so
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           20 Jun 29 06:57 usr/lib64/libqrencode.so.3 -> libqrencode.so.3.4.1
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        53608 Jun 29 06:57 usr/lib64/libqrencode.so.3.4.1
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        42400 Jun 29 06:57 usr/lib64/librt-2.26.so
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           13 Jun 29 06:57 usr/lib64/librt.so.1 -> librt-2.26.so
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root       155680 Jun 29 06:57 usr/lib64/libselinux.so.1
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           21 Jun 29 06:57 usr/lib64/libsmartcols.so.1 -> libsmartcols.so.1.1.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root       189096 Jun 29 06:57 usr/lib64/libsmartcols.so.1.1.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           15 Jun 29 06:57 usr/lib64/libtinfo.so.6 -> libtinfo.so.6.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root       179320 Jun 29 06:57 usr/lib64/libtinfo.so.6.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           16 Jun 29 06:57 usr/lib64/libudev.so.1 -> libudev.so.1.6.2
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        82720 Jun 29 06:57 usr/lib64/libudev.so.1.6.2
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           16 Jun 29 06:57 usr/lib64/libuuid.so.1 -> libuuid.so.1.3.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        20056 Jun 29 06:57 usr/lib64/libuuid.so.1.3.0
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           13 Jun 29 06:57 usr/lib64/libz.so.1 -> libz.so.1.2.7
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        85976 Jun 29 06:57 usr/lib64/libz.so.1.2.7
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: drwxr-xr-x   2 root     root            0 Jun 29 06:57 usr/lib64/mysql
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: drwxr-xr-x   2 root     root            0 Jun 29 06:57 usr/sbin
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        88240 Jun 29 06:57 usr/sbin/blkid
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        33160 Jun 29 06:57 usr/sbin/chroot
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        45792 Jun 29 06:57 usr/sbin/fsck
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           16 Jun 29 06:57 usr/sbin/halt -> ../bin/systemctl
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           22 Jun 29 06:57 usr/sbin/init -> ../lib/systemd/systemd
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root         1208 May 18  2022 usr/sbin/initqueue
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root          584 Sep 12  2013 usr/sbin/loginit
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        79768 Jun 29 06:57 usr/sbin/losetup
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           11 Jun 29 06:57 usr/sbin/modprobe -> ../bin/kmod
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        11288 Jun 29 06:57 usr/sbin/nologin
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           16 Jun 29 06:57 usr/sbin/poweroff -> ../bin/systemctl
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root          942 May 18  2022 usr/sbin/rdsosreport
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           16 Jun 29 06:57 usr/sbin/reboot -> ../bin/systemctl
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           11 Jun 29 06:57 usr/sbin/rmmod -> ../bin/kmod
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root        20064 Jun 29 06:57 usr/sbin/swapoff
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: -rwxr-xr-x   1 root     root         6052 May 18  2022 usr/sbin/tracekomem
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           14 Jun 29 06:57 usr/sbin/udevadm -> ../bin/udevadm
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: drwxr-xr-x   2 root     root            0 Jun 29 06:57 var
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root           11 Jun 29 06:57 var/lock -> ../run/lock
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: lrwxrwxrwx   1 root     root            6 Jun 29 06:57 var/run -> ../run
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: ========================================================================
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal dracut[30923]: *** Creating initramfs image file '/boot/initramfs-5.10.184-174.730.amzn2.x86_64.img' done ***
+Jun 29 06:57:17 ip-172-31-42-240.eu-west-2.compute.internal systemd-udevd[26910]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jun 29 06:57:19 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopped Dynamically Generate Message Of The Day.
+-- Subject: Unit update-motd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has finished shutting down.
+Jun 29 06:57:19 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopping Dynamically Generate Message Of The Day...
+-- Subject: Unit update-motd.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has begun shutting down.
+Jun 29 06:57:19 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting Dynamically Generate Message Of The Day...
+-- Subject: Unit update-motd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has begun starting up.
+Jun 29 06:57:21 ip-172-31-42-240.eu-west-2.compute.internal sudo[26810]: pam_unix(sudo:session): session closed for user root
+Jun 29 06:57:32 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Dynamically Generate Message Of The Day.
+-- Subject: Unit update-motd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 06:58:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[1148]: Invalid user admin from 59.23.199.98 port 62906
+Jun 29 06:58:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[1148]: input_userauth_request: invalid user admin [preauth]
+Jun 29 06:58:28 ip-172-31-42-240.eu-west-2.compute.internal sshd[1148]: Connection reset by 59.23.199.98 port 62906 [preauth]
+Jun 29 06:59:01 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 108790ms.
+Jun 29 07:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24555 of user root.
+-- Subject: Unit session-24555.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24555.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:00:02 ip-172-31-42-240.eu-west-2.compute.internal CROND[1152]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:00:02 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:00:50 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 119210ms.
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24556 of user root.
+-- Subject: Unit session-24556.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24556.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[1159]: (root) CMD (run-parts /etc/cron.hourly)
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[1162]: [1;39mstarting 0anacron[0m
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[1168]: [1;39mfinished 0anacron[0m
+Jun 29 07:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:01:37 ip-172-31-42-240.eu-west-2.compute.internal sudo[1172]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/systemctl is-enabled httpd[0m
+Jun 29 07:01:37 ip-172-31-42-240.eu-west-2.compute.internal sudo[1172]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:01:37 ip-172-31-42-240.eu-west-2.compute.internal sudo[1172]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:02:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[1175]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/systemctl start httpd[0m
+Jun 29 07:02:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[1175]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:02:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[1175]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x20d16b11)
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPACK from 172.31.32.1 (xid=0x20d16b11)
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal NET[1199]: [1;39mdhclient: Locked /run/dhclient/resolv.lock[0m
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: bound to 172.31.42.240 -- renewal in 1470 seconds.
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal ec2net[1218]: [1;39m[get_meta] Querying IMDS for meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal ec2net[1219]: [1;39m[get_meta] Getting token for IMDSv2.[0m
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal ec2net[1222]: [1;39m[get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:02:39 ip-172-31-42-240.eu-west-2.compute.internal ec2net[1227]: [1;39m[remove_aliases] Removing aliases of eth0[0m
+Jun 29 07:02:50 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 111770ms.
+Jun 29 07:03:00 ip-172-31-42-240.eu-west-2.compute.internal sudo[1229]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/yum install -y mod_ssl[0m
+Jun 29 07:03:00 ip-172-31-42-240.eu-west-2.compute.internal sudo[1229]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: apr-1.7.2-1.amzn2.x86_64
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: apr-util-1.6.3-1.amzn2.0.1.x86_64
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: apr-util-bdb-1.6.3-1.amzn2.0.1.x86_64
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal groupadd[1244]: group added to /etc/group: name=apache, GID=48
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal groupadd[1244]: group added to /etc/gshadow: name=apache
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal groupadd[1244]: new group: name=apache, GID=48
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal useradd[1249]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: httpd-filesystem-2.4.57-1.amzn2.noarch
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: httpd-tools-2.4.57-1.amzn2.x86_64
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: generic-logos-httpd-18.0.0-4.amzn2.noarch
+Jun 29 07:03:05 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: mailcap-2.1.41-2.amzn2.noarch
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: mod_http2-1.15.19-1.amzn2.0.1.x86_64
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Reloading.
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: httpd-2.4.57-1.amzn2.x86_64
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: libtalloc-2.1.16-1.amzn2.x86_64
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: sscg-2.3.3-2.amzn2.0.1.x86_64
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Reloading.
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal yum[1230]: Installed: 1:mod_ssl-2.4.57-1.amzn2.x86_64
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopped Dynamically Generate Message Of The Day.
+-- Subject: Unit update-motd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has finished shutting down.
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopping Dynamically Generate Message Of The Day...
+-- Subject: Unit update-motd.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has begun shutting down.
+Jun 29 07:03:06 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting Dynamically Generate Message Of The Day...
+-- Subject: Unit update-motd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has begun starting up.
+Jun 29 07:03:07 ip-172-31-42-240.eu-west-2.compute.internal sudo[1229]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:03:17 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Dynamically Generate Message Of The Day.
+-- Subject: Unit update-motd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit update-motd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:04:41 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 124470ms.
+Jun 29 07:06:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 111650ms.
+Jun 29 07:06:51 ip-172-31-42-240.eu-west-2.compute.internal sudo[1334]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl restart httpd[0m
+Jun 29 07:06:51 ip-172-31-42-240.eu-west-2.compute.internal sudo[1334]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:06:51 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting One-time temporary TLS key generation for httpd.service...
+-- Subject: Unit httpd-init.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd-init.service has begun starting up.
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started One-time temporary TLS key generation for httpd.service.
+-- Subject: Unit httpd-init.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd-init.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal httpd[1343]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal httpd[1343]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal httpd[1343]: no listening sockets available, shutting down
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal httpd[1343]: AH00015: Unable to open logs
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal sudo[1334]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:06:52 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:07:40 ip-172-31-42-240.eu-west-2.compute.internal sudo[1349]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl is-enabled httpd[0m
+Jun 29 07:07:40 ip-172-31-42-240.eu-west-2.compute.internal sudo[1349]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:07:40 ip-172-31-42-240.eu-west-2.compute.internal sudo[1349]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[1351]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl start httpd[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[1351]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal httpd[1355]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal httpd[1355]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal httpd[1355]: no listening sockets available, shutting down
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal httpd[1355]: AH00015: Unable to open logs
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:08:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[1351]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal sudo[1360]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl start httpd[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal sudo[1360]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal httpd[1364]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal httpd[1364]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal httpd[1364]: no listening sockets available, shutting down
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal httpd[1364]: AH00015: Unable to open logs
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:08:34 ip-172-31-42-240.eu-west-2.compute.internal sudo[1360]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:08:38 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 112340ms.
+Jun 29 07:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24557 of user root.
+-- Subject: Unit session-24557.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24557.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:10:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[1375]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:10:30 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 111240ms.
+Jun 29 07:11:50 ip-172-31-42-240.eu-west-2.compute.internal sudo[1383]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl stop[0m
+Jun 29 07:11:50 ip-172-31-42-240.eu-west-2.compute.internal sudo[1383]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:11:50 ip-172-31-42-240.eu-west-2.compute.internal sudo[1383]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:12:07 ip-172-31-42-240.eu-west-2.compute.internal sudo[1385]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/bin/systemctl start httpd[0m
+Jun 29 07:12:07 ip-172-31-42-240.eu-west-2.compute.internal sudo[1385]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:12:07 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal httpd[1389]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal httpd[1389]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal httpd[1389]: no listening sockets available, shutting down
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal httpd[1389]: AH00015: Unable to open logs
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:12:08 ip-172-31-42-240.eu-west-2.compute.internal sudo[1385]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:12:21 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 126040ms.
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal sudo[1395]: [1;39mec2-user : TTY=pts/0 ; PWD=/etc/pki/tls/certs ; USER=root ; COMMAND=/sbin/service httpd start[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal sudo[1395]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal httpd[1409]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal httpd[1409]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal httpd[1409]: no listening sockets available, shutting down
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal httpd[1409]: AH00015: Unable to open logs
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:13:48 ip-172-31-42-240.eu-west-2.compute.internal sudo[1395]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:14:27 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 127090ms.
+Jun 29 07:16:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[26583]: Received disconnect from 175.140.128.54 port 57612:11: disconnected by user
+Jun 29 07:16:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[26583]: Disconnected from 175.140.128.54 port 57612
+Jun 29 07:16:32 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: Removed session 24554.
+-- Subject: Session 24554 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 24554 has been terminated.
+Jun 29 07:16:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[26549]: pam_unix(sshd:session): session closed for user ec2-user
+Jun 29 07:16:34 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 131650ms.
+Jun 29 07:18:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 123280ms.
+Jun 29 07:19:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[1423]: Accepted publickey for ec2-user from 175.140.128.54 port 58521 ssh2: ED25519 SHA256:PA1wTcY1LRa5Y2msBckVy1DD+Q4zqCfF1P2fdLuqASA
+Jun 29 07:19:37 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24558 of user ec2-user.
+-- Subject: Unit session-24558.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24558.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:19:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[1423]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Jun 29 07:19:37 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: New session 24558 of user ec2-user.
+-- Subject: A new session 24558 has been created for user ec2-user
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 24558 has been created for the user ec2-user.
+-- 
+-- The leading process of the session is 1423.
+Jun 29 07:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24559 of user root.
+-- Subject: Unit session-24559.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24559.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:20:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[1688]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:20:49 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 109460ms.
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[1457]: Received disconnect from 175.140.128.54 port 58521:11: disconnected by user
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[1457]: Disconnected from 175.140.128.54 port 58521
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[1423]: pam_unix(sshd:session): session closed for user ec2-user
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal su[1686]: [1;31mpam_unix(su-l:auth): conversation failed[0m
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: Removed session 24558.
+-- Subject: Session 24558 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 24558 has been terminated.
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal su[1686]: [1;31mpam_unix(su-l:auth): auth could not identify password for [root][0m
+Jun 29 07:20:54 ip-172-31-42-240.eu-west-2.compute.internal su[1686]: [1;39mFAILED SU (to root) ec2-user on none[0m
+Jun 29 07:21:15 ip-172-31-42-240.eu-west-2.compute.internal sshd[1697]: Accepted publickey for ec2-user from 175.140.128.54 port 58548 ssh2: ED25519 SHA256:PA1wTcY1LRa5Y2msBckVy1DD+Q4zqCfF1P2fdLuqASA
+Jun 29 07:21:15 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24560 of user ec2-user.
+-- Subject: Unit session-24560.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24560.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:21:15 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: New session 24560 of user ec2-user.
+-- Subject: A new session 24560 has been created for user ec2-user
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 24560 has been created for the user ec2-user.
+-- 
+-- The leading process of the session is 1697.
+Jun 29 07:21:15 ip-172-31-42-240.eu-west-2.compute.internal sshd[1697]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Jun 29 07:21:37 ip-172-31-42-240.eu-west-2.compute.internal su[1970]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:21:38 ip-172-31-42-240.eu-west-2.compute.internal su[1970]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:21:57 ip-172-31-42-240.eu-west-2.compute.internal su[1972]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:21:59 ip-172-31-42-240.eu-west-2.compute.internal su[1972]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:22:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 127790ms.
+Jun 29 07:23:06 ip-172-31-42-240.eu-west-2.compute.internal su[1973]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:23:08 ip-172-31-42-240.eu-west-2.compute.internal su[1973]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:23:33 ip-172-31-42-240.eu-west-2.compute.internal su[1975]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:23:35 ip-172-31-42-240.eu-west-2.compute.internal su[1975]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:23:43 ip-172-31-42-240.eu-west-2.compute.internal su[1977]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:23:45 ip-172-31-42-240.eu-west-2.compute.internal su[1977]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:24:47 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 119520ms.
+Jun 29 07:26:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121830ms.
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x20d16b11)
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPACK from 172.31.32.1 (xid=0x20d16b11)
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal NET[2002]: [1;39mdhclient: Locked /run/dhclient/resolv.lock[0m
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: bound to 172.31.42.240 -- renewal in 1733 seconds.
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2021]: [1;39m[get_meta] Querying IMDS for meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2022]: [1;39m[get_meta] Getting token for IMDSv2.[0m
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2025]: [1;39m[get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:27:09 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2030]: [1;39m[remove_aliases] Removing aliases of eth0[0m
+Jun 29 07:27:55 ip-172-31-42-240.eu-west-2.compute.internal su[1978]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:27:56 ip-172-31-42-240.eu-west-2.compute.internal su[1978]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:28:08 ip-172-31-42-240.eu-west-2.compute.internal su[2034]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:28:11 ip-172-31-42-240.eu-west-2.compute.internal su[2034]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:28:28 ip-172-31-42-240.eu-west-2.compute.internal su[2035]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:28:30 ip-172-31-42-240.eu-west-2.compute.internal su[2035]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:28:43 ip-172-31-42-240.eu-west-2.compute.internal su[2036]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:28:46 ip-172-31-42-240.eu-west-2.compute.internal su[2036]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:28:48 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 123080ms.
+Jun 29 07:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24561 of user root.
+-- Subject: Unit session-24561.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24561.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:30:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2041]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:30:51 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 110470ms.
+Jun 29 07:32:42 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 119210ms.
+Jun 29 07:33:48 ip-172-31-42-240.eu-west-2.compute.internal su[2050]: [1;39mpam_unix(su-l:auth): authentication failure; logname=ec2-user uid=1000 euid=0 tty=pts/0 ruser=ec2-user rhost=  user=root[0m
+Jun 29 07:33:50 ip-172-31-42-240.eu-west-2.compute.internal su[2050]: [1;39mFAILED SU (to root) ec2-user on pts/0[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal sudo[2051]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/systemctl start httpd[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal sudo[2051]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit httpd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has begun starting up.
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal httpd[2055]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal httpd[2055]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal httpd[2055]: no listening sockets available, shutting down
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal httpd[2055]: AH00015: Unable to open logs
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service: main process exited, code=exited, status=1/FAILURE[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal sudo[2051]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit httpd.service has failed.
+-- 
+-- The result is failed.
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit httpd.service entered failed state.[0m
+Jun 29 07:34:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mhttpd.service failed.[0m
+Jun 29 07:34:41 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 125490ms.
+Jun 29 07:36:47 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 119440ms.
+Jun 29 07:38:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 129060ms.
+Jun 29 07:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24562 of user root.
+-- Subject: Unit session-24562.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24562.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:40:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2073]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:40:55 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 130670ms.
+Jun 29 07:43:06 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 113910ms.
+Jun 29 07:43:26 ip-172-31-42-240.eu-west-2.compute.internal sshd[2082]: Invalid user supervisor from 210.6.27.170 port 60258
+Jun 29 07:43:26 ip-172-31-42-240.eu-west-2.compute.internal sshd[2082]: input_userauth_request: invalid user supervisor [preauth]
+Jun 29 07:43:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[2082]: Connection closed by 210.6.27.170 port 60258 [preauth]
+Jun 29 07:45:00 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 123950ms.
+Jun 29 07:47:04 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 122470ms.
+Jun 29 07:49:07 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 110560ms.
+Jun 29 07:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24563 of user root.
+-- Subject: Unit session-24563.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24563.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 07:50:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2093]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 07:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 07:50:57 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 111780ms.
+Jun 29 07:51:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2100]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/apachectl stop[0m
+Jun 29 07:51:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2100]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:51:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2100]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:52:08 ip-172-31-42-240.eu-west-2.compute.internal sudo[2105]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/apachectl start[0m
+Jun 29 07:52:08 ip-172-31-42-240.eu-west-2.compute.internal sudo[2105]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:52:08 ip-172-31-42-240.eu-west-2.compute.internal sudo[2105]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:52:49 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 112160ms.
+Jun 29 07:54:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[2111]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -ltnp[0m
+Jun 29 07:54:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[2111]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:54:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[2111]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:54:41 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 113530ms.
+Jun 29 07:54:59 ip-172-31-42-240.eu-west-2.compute.internal sudo[2114]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/kill 1500[0m
+Jun 29 07:54:59 ip-172-31-42-240.eu-west-2.compute.internal sudo[2114]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:54:59 ip-172-31-42-240.eu-west-2.compute.internal sudo[2114]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:55:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2117]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/kill 27822[0m
+Jun 29 07:55:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2117]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:55:09 ip-172-31-42-240.eu-west-2.compute.internal sudo[2117]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:55:22 ip-172-31-42-240.eu-west-2.compute.internal sudo[2122]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service apache2 restart[0m
+Jun 29 07:55:22 ip-172-31-42-240.eu-west-2.compute.internal sudo[2122]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:55:22 ip-172-31-42-240.eu-west-2.compute.internal sudo[2122]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x20d16b11)
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPACK from 172.31.32.1 (xid=0x20d16b11)
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal NET[2156]: [1;39mdhclient: Locked /run/dhclient/resolv.lock[0m
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: bound to 172.31.42.240 -- renewal in 1426 seconds.
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2175]: [1;39m[get_meta] Querying IMDS for meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2176]: [1;39m[get_meta] Getting token for IMDSv2.[0m
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2179]: [1;39m[get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 07:56:02 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2184]: [1;39m[remove_aliases] Removing aliases of eth0[0m
+Jun 29 07:56:35 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 130180ms.
+Jun 29 07:58:45 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 109320ms.
+Jun 29 07:58:46 ip-172-31-42-240.eu-west-2.compute.internal sudo[2190]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm[0m
+Jun 29 07:58:46 ip-172-31-42-240.eu-west-2.compute.internal sudo[2190]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:58:47 ip-172-31-42-240.eu-west-2.compute.internal sudo[2190]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:59:28 ip-172-31-42-240.eu-west-2.compute.internal sudo[2196]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/yum-config-manager --enable epel[0m
+Jun 29 07:59:28 ip-172-31-42-240.eu-west-2.compute.internal sudo[2196]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 07:59:29 ip-172-31-42-240.eu-west-2.compute.internal sudo[2196]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24564 of user root.
+-- Subject: Unit session-24564.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24564.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:00:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2200]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:00:34 ip-172-31-42-240.eu-west-2.compute.internal sudo[2206]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/yum install certbot python2-certbot-nginx -y[0m
+Jun 29 08:00:34 ip-172-31-42-240.eu-west-2.compute.internal sudo[2206]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:00:34 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121900ms.
+Jun 29 08:00:39 ip-172-31-42-240.eu-west-2.compute.internal sudo[2206]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:00:51 ip-172-31-42-240.eu-west-2.compute.internal sudo[2212]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/certbot --nginx[0m
+Jun 29 08:00:51 ip-172-31-42-240.eu-west-2.compute.internal sudo[2212]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24565 of user root.
+-- Subject: Unit session-24565.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24565.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2221]: (root) CMD (run-parts /etc/cron.hourly)
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[2224]: [1;39mstarting 0anacron[0m
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[2230]: [1;39mfinished 0anacron[0m
+Jun 29 08:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:01:12 ip-172-31-42-240.eu-west-2.compute.internal sudo[2212]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:01:28 ip-172-31-42-240.eu-west-2.compute.internal crontab[2245]: (ec2-user) BEGIN EDIT (ec2-user)
+Jun 29 08:02:36 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 127480ms.
+Jun 29 08:04:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[1740]: Received disconnect from 175.140.128.54 port 58548:11: disconnected by user
+Jun 29 08:04:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[1740]: Disconnected from 175.140.128.54 port 58548
+Jun 29 08:04:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[1697]: pam_unix(sshd:session): session closed for user ec2-user
+Jun 29 08:04:44 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121950ms.
+Jun 29 08:06:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 120670ms.
+Jun 29 08:08:47 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 125980ms.
+Jun 29 08:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24566 of user root.
+-- Subject: Unit session-24566.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24566.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:10:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2258]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:10:53 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 129100ms.
+Jun 29 08:13:02 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 125910ms.
+Jun 29 08:15:08 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121310ms.
+Jun 29 08:17:09 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 119880ms.
+Jun 29 08:19:09 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 113410ms.
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x20d16b11)
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPACK from 172.31.32.1 (xid=0x20d16b11)
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal NET[2294]: [1;39mdhclient: Locked /run/dhclient/resolv.lock[0m
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: bound to 172.31.42.240 -- renewal in 1459 seconds.
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2313]: [1;39m[get_meta] Querying IMDS for meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2314]: [1;39m[get_meta] Getting token for IMDSv2.[0m
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2317]: [1;39m[get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 08:19:48 ip-172-31-42-240.eu-west-2.compute.internal ec2net[2322]: [1;39m[remove_aliases] Removing aliases of eth0[0m
+Jun 29 08:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24567 of user root.
+-- Subject: Unit session-24567.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24567.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:20:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2325]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:20:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:21:02 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121460ms.
+Jun 29 08:22:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2334]: Did not receive identification string from 122.144.10.66 port 59916
+Jun 29 08:23:04 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 110320ms.
+Jun 29 08:23:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[2335]: Accepted publickey for ec2-user from 175.140.128.54 port 61886 ssh2: ED25519 SHA256:PA1wTcY1LRa5Y2msBckVy1DD+Q4zqCfF1P2fdLuqASA
+Jun 29 08:23:17 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24568 of user ec2-user.
+-- Subject: Unit session-24568.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24568.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:23:17 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: New session 24568 of user ec2-user.
+-- Subject: A new session 24568 has been created for user ec2-user
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 24568 has been created for the user ec2-user.
+-- 
+-- The leading process of the session is 2335.
+Jun 29 08:23:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[2335]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal sudo[2603]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/systemctl restart nginx[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal sudo[2603]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2608]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2608]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:24:14 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:24:15 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal nginx[2612]: nginx: [emerg] still could not bind()
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal sudo[2603]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mnginx.service: control process exited, code=exited status=1[0m
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The nginx HTTP and reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit nginx.service entered failed state.[0m
+Jun 29 08:24:16 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mnginx.service failed.[0m
+Jun 29 08:24:54 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 116750ms.
+Jun 29 08:26:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2623]: Accepted publickey for ec2-user from 175.140.128.54 port 61928 ssh2: ED25519 SHA256:PA1wTcY1LRa5Y2msBckVy1DD+Q4zqCfF1P2fdLuqASA
+Jun 29 08:26:31 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24569 of user ec2-user.
+-- Subject: Unit session-24569.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24569.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:26:31 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: New session 24569 of user ec2-user.
+-- Subject: A new session 24569 has been created for user ec2-user
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 24569 has been created for the user ec2-user.
+-- 
+-- The leading process of the session is 2623.
+Jun 29 08:26:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2623]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Jun 29 08:26:51 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 121230ms.
+Jun 29 08:28:52 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 111190ms.
+Jun 29 08:29:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2907]: Invalid user orangepi from 8.222.169.20 port 46096
+Jun 29 08:29:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2907]: input_userauth_request: invalid user orangepi [preauth]
+Jun 29 08:29:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2907]: Connection closed by 8.222.169.20 port 46096 [preauth]
+Jun 29 08:30:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2909]: Invalid user libuuid from 8.222.169.20 port 36270
+Jun 29 08:30:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2909]: input_userauth_request: invalid user libuuid [preauth]
+Jun 29 08:30:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2909]: Connection closed by 8.222.169.20 port 36270 [preauth]
+Jun 29 08:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24570 of user root.
+-- Subject: Unit session-24570.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24570.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:30:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[2912]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:30:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:30:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[2917]: Invalid user mysql_admin from 8.222.169.20 port 37598
+Jun 29 08:30:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[2917]: input_userauth_request: invalid user mysql_admin [preauth]
+Jun 29 08:30:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[2917]: Connection closed by 8.222.169.20 port 37598 [preauth]
+Jun 29 08:30:44 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 112070ms.
+Jun 29 08:32:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2943]: Invalid user sysadmin from 202.125.94.212 port 55189
+Jun 29 08:32:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2943]: input_userauth_request: invalid user sysadmin [preauth]
+Jun 29 08:32:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2943]: Received disconnect from 202.125.94.212 port 55189:11: Bye Bye [preauth]
+Jun 29 08:32:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2943]: Disconnected from 202.125.94.212 port 55189 [preauth]
+Jun 29 08:32:36 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 130260ms.
+Jun 29 08:34:28 ip-172-31-42-240.eu-west-2.compute.internal sshd[2947]: Invalid user cent from 207.154.254.232 port 40336
+Jun 29 08:34:28 ip-172-31-42-240.eu-west-2.compute.internal sshd[2947]: input_userauth_request: invalid user cent [preauth]
+Jun 29 08:34:28 ip-172-31-42-240.eu-west-2.compute.internal sshd[2947]: Received disconnect from 207.154.254.232 port 40336:11: Bye Bye [preauth]
+Jun 29 08:34:28 ip-172-31-42-240.eu-west-2.compute.internal sshd[2947]: Disconnected from 207.154.254.232 port 40336 [preauth]
+Jun 29 08:34:29 ip-172-31-42-240.eu-west-2.compute.internal sshd[2949]: Did not receive identification string from 203.150.107.222 port 39760
+Jun 29 08:34:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[2950]: Connection closed by 203.150.107.222 port 41410 [preauth]
+Jun 29 08:34:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2955]: Invalid user fa from 203.150.107.222 port 59520
+Jun 29 08:34:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2955]: input_userauth_request: invalid user fa [preauth]
+Jun 29 08:34:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 110080ms.
+Jun 29 08:34:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2955]: Connection closed by 203.150.107.222 port 59520 [preauth]
+Jun 29 08:34:47 ip-172-31-42-240.eu-west-2.compute.internal sshd[2957]: Invalid user resetroot from 203.150.107.222 port 38162
+Jun 29 08:34:47 ip-172-31-42-240.eu-west-2.compute.internal sshd[2957]: input_userauth_request: invalid user resetroot [preauth]
+Jun 29 08:34:48 ip-172-31-42-240.eu-west-2.compute.internal sshd[2957]: Connection closed by 203.150.107.222 port 38162 [preauth]
+Jun 29 08:34:51 ip-172-31-42-240.eu-west-2.compute.internal sshd[2959]: Invalid user resetcraft from 203.150.107.222 port 55036
+Jun 29 08:34:51 ip-172-31-42-240.eu-west-2.compute.internal sshd[2959]: input_userauth_request: invalid user resetcraft [preauth]
+Jun 29 08:34:51 ip-172-31-42-240.eu-west-2.compute.internal sshd[2959]: Connection closed by 203.150.107.222 port 55036 [preauth]
+Jun 29 08:34:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[2961]: Invalid user resetadmin from 203.150.107.222 port 46218
+Jun 29 08:34:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[2961]: input_userauth_request: invalid user resetadmin [preauth]
+Jun 29 08:34:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[2961]: Connection closed by 203.150.107.222 port 46218 [preauth]
+Jun 29 08:34:58 ip-172-31-42-240.eu-west-2.compute.internal sshd[2963]: Invalid user craft from 203.150.107.222 port 36002
+Jun 29 08:34:58 ip-172-31-42-240.eu-west-2.compute.internal sshd[2963]: input_userauth_request: invalid user craft [preauth]
+Jun 29 08:34:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[2963]: Connection closed by 203.150.107.222 port 36002 [preauth]
+Jun 29 08:35:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[2966]: Invalid user debug from 203.150.107.222 port 42704
+Jun 29 08:35:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[2966]: input_userauth_request: invalid user debug [preauth]
+Jun 29 08:35:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[2966]: Connection closed by 203.150.107.222 port 42704 [preauth]
+Jun 29 08:35:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[2968]: Invalid user mysql from 203.150.107.222 port 56540
+Jun 29 08:35:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[2968]: input_userauth_request: invalid user mysql [preauth]
+Jun 29 08:35:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[2968]: Connection closed by 203.150.107.222 port 56540 [preauth]
+Jun 29 08:35:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[2970]: Invalid user orangepi from 203.150.107.222 port 46398
+Jun 29 08:35:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[2970]: input_userauth_request: invalid user orangepi [preauth]
+Jun 29 08:35:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[2970]: Connection closed by 203.150.107.222 port 46398 [preauth]
+Jun 29 08:35:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[2972]: Invalid user postgres from 203.150.107.222 port 47776
+Jun 29 08:35:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[2972]: input_userauth_request: invalid user postgres [preauth]
+Jun 29 08:35:15 ip-172-31-42-240.eu-west-2.compute.internal sshd[2972]: Connection closed by 203.150.107.222 port 47776 [preauth]
+Jun 29 08:35:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[2974]: Invalid user appuser from 203.150.107.222 port 39390
+Jun 29 08:35:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[2974]: input_userauth_request: invalid user appuser [preauth]
+Jun 29 08:35:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[2974]: Connection closed by 203.150.107.222 port 39390 [preauth]
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2978]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2978]: Invalid user full from 201.248.90.19 port 58042
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2978]: input_userauth_request: invalid user full [preauth]
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2976]: Invalid user ubuntu from 203.150.107.222 port 59718
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2976]: input_userauth_request: invalid user ubuntu [preauth]
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2978]: Received disconnect from 201.248.90.19 port 58042:11: Bye Bye [preauth]
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2978]: Disconnected from 201.248.90.19 port 58042 [preauth]
+Jun 29 08:35:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[2976]: Connection closed by 203.150.107.222 port 59718 [preauth]
+Jun 29 08:35:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[2980]: Invalid user libuuid from 203.150.107.222 port 57038
+Jun 29 08:35:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[2980]: input_userauth_request: invalid user libuuid [preauth]
+Jun 29 08:35:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[2980]: Connection closed by 203.150.107.222 port 57038 [preauth]
+Jun 29 08:35:26 ip-172-31-42-240.eu-west-2.compute.internal sshd[2982]: Invalid user systemx from 203.150.107.222 port 50680
+Jun 29 08:35:26 ip-172-31-42-240.eu-west-2.compute.internal sshd[2982]: input_userauth_request: invalid user systemx [preauth]
+Jun 29 08:35:26 ip-172-31-42-240.eu-west-2.compute.internal sshd[2982]: Connection closed by 203.150.107.222 port 50680 [preauth]
+Jun 29 08:35:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2987]: Invalid user user1 from 203.150.107.222 port 42412
+Jun 29 08:35:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[2987]: input_userauth_request: invalid user user1 [preauth]
+Jun 29 08:35:47 ip-172-31-42-240.eu-west-2.compute.internal sshd[2987]: Connection closed by 203.150.107.222 port 42412 [preauth]
+Jun 29 08:35:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[2991]: Invalid user amanda from 203.150.107.222 port 52566
+Jun 29 08:35:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[2991]: input_userauth_request: invalid user amanda [preauth]
+Jun 29 08:35:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[2991]: Connection closed by 203.150.107.222 port 52566 [preauth]
+Jun 29 08:35:55 ip-172-31-42-240.eu-west-2.compute.internal sshd[2984]: Invalid user systemd from 203.150.107.222 port 40830
+Jun 29 08:35:55 ip-172-31-42-240.eu-west-2.compute.internal sshd[2984]: input_userauth_request: invalid user systemd [preauth]
+Jun 29 08:35:55 ip-172-31-42-240.eu-west-2.compute.internal sshd[2984]: Connection closed by 203.150.107.222 port 40830 [preauth]
+Jun 29 08:35:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[2993]: Connection closed by 203.150.107.222 port 41204 [preauth]
+Jun 29 08:35:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2996]: Invalid user liubin from 157.230.55.156 port 42536
+Jun 29 08:35:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2996]: input_userauth_request: invalid user liubin [preauth]
+Jun 29 08:35:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2996]: Received disconnect from 157.230.55.156 port 42536:11: Bye Bye [preauth]
+Jun 29 08:35:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[2996]: Disconnected from 157.230.55.156 port 42536 [preauth]
+Jun 29 08:36:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2995]: Invalid user junkbust from 203.150.107.222 port 53966
+Jun 29 08:36:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2995]: input_userauth_request: invalid user junkbust [preauth]
+Jun 29 08:36:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[2995]: Connection closed by 203.150.107.222 port 53966 [preauth]
+Jun 29 08:36:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[3001]: Invalid user bitwarden from 209.38.225.232 port 47812
+Jun 29 08:36:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[3001]: input_userauth_request: invalid user bitwarden [preauth]
+Jun 29 08:36:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[3001]: Received disconnect from 209.38.225.232 port 47812:11: Bye Bye [preauth]
+Jun 29 08:36:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[3001]: Disconnected from 209.38.225.232 port 47812 [preauth]
+Jun 29 08:36:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[2999]: Invalid user lighthouse from 203.150.107.222 port 57318
+Jun 29 08:36:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[2999]: input_userauth_request: invalid user lighthouse [preauth]
+Jun 29 08:36:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[2999]: Connection closed by 203.150.107.222 port 57318 [preauth]
+Jun 29 08:36:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3005]: Invalid user test from 203.150.107.222 port 58476
+Jun 29 08:36:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3005]: input_userauth_request: invalid user test [preauth]
+Jun 29 08:36:12 ip-172-31-42-240.eu-west-2.compute.internal sshd[2989]: Connection closed by 203.150.107.222 port 40058 [preauth]
+Jun 29 08:36:29 ip-172-31-42-240.eu-west-2.compute.internal sshd[3005]: Connection closed by 203.150.107.222 port 58476 [preauth]
+Jun 29 08:36:30 ip-172-31-42-240.eu-west-2.compute.internal sshd[3003]: Connection closed by 203.150.107.222 port 48434 [preauth]
+Jun 29 08:36:34 ip-172-31-42-240.eu-west-2.compute.internal sshd[3007]: Invalid user sshadmin from 203.150.107.222 port 52232
+Jun 29 08:36:34 ip-172-31-42-240.eu-west-2.compute.internal sshd[3007]: input_userauth_request: invalid user sshadmin [preauth]
+Jun 29 08:36:35 ip-172-31-42-240.eu-west-2.compute.internal sshd[3007]: Connection closed by 203.150.107.222 port 52232 [preauth]
+Jun 29 08:36:36 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 128390ms.
+Jun 29 08:36:46 ip-172-31-42-240.eu-west-2.compute.internal sshd[3009]: Connection closed by 203.150.107.222 port 50738 [preauth]
+Jun 29 08:37:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[3012]: Invalid user mysql_admin from 203.150.107.222 port 45542
+Jun 29 08:37:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[3012]: input_userauth_request: invalid user mysql_admin [preauth]
+Jun 29 08:37:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[3012]: Connection closed by 203.150.107.222 port 45542 [preauth]
+Jun 29 08:37:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3060]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:37:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3060]: Invalid user cent from 138.204.188.51 port 45708
+Jun 29 08:37:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3060]: input_userauth_request: invalid user cent [preauth]
+Jun 29 08:37:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3060]: Received disconnect from 138.204.188.51 port 45708:11: Bye Bye [preauth]
+Jun 29 08:37:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3060]: Disconnected from 138.204.188.51 port 45708 [preauth]
+Jun 29 08:37:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[3063]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:37:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[3063]: Received disconnect from 68.183.145.59 port 43842:11: Bye Bye [preauth]
+Jun 29 08:37:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[3063]: Disconnected from 68.183.145.59 port 43842 [preauth]
+Jun 29 08:38:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[2667]: Received disconnect from 175.140.128.54 port 61928:11: disconnected by user
+Jun 29 08:38:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[2667]: Disconnected from 175.140.128.54 port 61928
+Jun 29 08:38:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[2623]: pam_unix(sshd:session): session closed for user ec2-user
+Jun 29 08:38:25 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: Removed session 24569.
+-- Subject: Session 24569 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 24569 has been terminated.
+Jun 29 08:38:45 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 125550ms.
+Jun 29 08:38:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3067]: Invalid user dev from 202.125.94.212 port 57413
+Jun 29 08:38:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3067]: input_userauth_request: invalid user dev [preauth]
+Jun 29 08:38:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3067]: Received disconnect from 202.125.94.212 port 57413:11: Bye Bye [preauth]
+Jun 29 08:38:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3067]: Disconnected from 202.125.94.212 port 57413 [preauth]
+Jun 29 08:39:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3069]: Invalid user nikolas from 142.93.243.85 port 34226
+Jun 29 08:39:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3069]: input_userauth_request: invalid user nikolas [preauth]
+Jun 29 08:39:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3069]: Received disconnect from 142.93.243.85 port 34226:11: Bye Bye [preauth]
+Jun 29 08:39:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3069]: Disconnected from 142.93.243.85 port 34226 [preauth]
+Jun 29 08:39:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[3073]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:39:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[3073]: Invalid user mysql from 201.248.90.19 port 58048
+Jun 29 08:39:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[3073]: input_userauth_request: invalid user mysql [preauth]
+Jun 29 08:39:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[3073]: Received disconnect from 201.248.90.19 port 58048:11: Bye Bye [preauth]
+Jun 29 08:39:32 ip-172-31-42-240.eu-west-2.compute.internal sshd[3073]: Disconnected from 201.248.90.19 port 58048 [preauth]
+Jun 29 08:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24571 of user root.
+-- Subject: Unit session-24571.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24571.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:40:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[3077]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:40:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:40:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3083]: Received disconnect from 209.38.225.232 port 49330:11: Bye Bye [preauth]
+Jun 29 08:40:02 ip-172-31-42-240.eu-west-2.compute.internal sshd[3083]: Disconnected from 209.38.225.232 port 49330 [preauth]
+Jun 29 08:40:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[3085]: Invalid user credit from 202.125.94.212 port 41264
+Jun 29 08:40:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[3085]: input_userauth_request: invalid user credit [preauth]
+Jun 29 08:40:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[3085]: Received disconnect from 202.125.94.212 port 41264:11: Bye Bye [preauth]
+Jun 29 08:40:10 ip-172-31-42-240.eu-west-2.compute.internal sshd[3085]: Disconnected from 202.125.94.212 port 41264 [preauth]
+Jun 29 08:40:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3087]: Invalid user k from 207.154.254.232 port 55904
+Jun 29 08:40:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3087]: input_userauth_request: invalid user k [preauth]
+Jun 29 08:40:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3087]: Received disconnect from 207.154.254.232 port 55904:11: Bye Bye [preauth]
+Jun 29 08:40:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3087]: Disconnected from 207.154.254.232 port 55904 [preauth]
+Jun 29 08:40:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3089]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:40:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3089]: Invalid user usuario from 68.183.145.59 port 48854
+Jun 29 08:40:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3089]: input_userauth_request: invalid user usuario [preauth]
+Jun 29 08:40:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3089]: Received disconnect from 68.183.145.59 port 48854:11: Bye Bye [preauth]
+Jun 29 08:40:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3089]: Disconnected from 68.183.145.59 port 48854 [preauth]
+Jun 29 08:40:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3091]: Invalid user zabbix from 142.93.243.85 port 35188
+Jun 29 08:40:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3091]: input_userauth_request: invalid user zabbix [preauth]
+Jun 29 08:40:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3091]: Received disconnect from 142.93.243.85 port 35188:11: Bye Bye [preauth]
+Jun 29 08:40:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3091]: Disconnected from 142.93.243.85 port 35188 [preauth]
+Jun 29 08:40:50 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 112410ms.
+Jun 29 08:40:58 ip-172-31-42-240.eu-west-2.compute.internal sshd[3103]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:40:58 ip-172-31-42-240.eu-west-2.compute.internal sshd[3103]: Received disconnect from 201.248.90.19 port 58060:11: Bye Bye [preauth]
+Jun 29 08:40:58 ip-172-31-42-240.eu-west-2.compute.internal sshd[3103]: Disconnected from 201.248.90.19 port 58060 [preauth]
+Jun 29 08:40:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3105]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:40:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3105]: Invalid user shell from 138.204.188.51 port 40536
+Jun 29 08:40:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3105]: input_userauth_request: invalid user shell [preauth]
+Jun 29 08:40:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3105]: Received disconnect from 138.204.188.51 port 40536:11: Bye Bye [preauth]
+Jun 29 08:40:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3105]: Disconnected from 138.204.188.51 port 40536 [preauth]
+Jun 29 08:41:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3108]: Invalid user developer from 209.38.225.232 port 38390
+Jun 29 08:41:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3108]: input_userauth_request: invalid user developer [preauth]
+Jun 29 08:41:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3108]: Received disconnect from 209.38.225.232 port 38390:11: Bye Bye [preauth]
+Jun 29 08:41:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3108]: Disconnected from 209.38.225.232 port 38390 [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3115]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3115]: Invalid user mailtest from 68.183.145.59 port 44246
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3115]: input_userauth_request: invalid user mailtest [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3113]: Invalid user jelena from 202.125.94.212 port 53361
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3113]: input_userauth_request: invalid user jelena [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3115]: Received disconnect from 68.183.145.59 port 44246:11: Bye Bye [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3115]: Disconnected from 68.183.145.59 port 44246 [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3113]: Received disconnect from 202.125.94.212 port 53361:11: Bye Bye [preauth]
+Jun 29 08:41:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[3113]: Disconnected from 202.125.94.212 port 53361 [preauth]
+Jun 29 08:41:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3117]: Received disconnect from 207.154.254.232 port 47942:11: Bye Bye [preauth]
+Jun 29 08:41:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3117]: Disconnected from 207.154.254.232 port 47942 [preauth]
+Jun 29 08:41:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3120]: Invalid user Redistoor from 142.93.243.85 port 33304
+Jun 29 08:41:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3120]: input_userauth_request: invalid user Redistoor [preauth]
+Jun 29 08:41:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3120]: Received disconnect from 142.93.243.85 port 33304:11: Bye Bye [preauth]
+Jun 29 08:41:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3120]: Disconnected from 142.93.243.85 port 33304 [preauth]
+Jun 29 08:42:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3122]: Invalid user mailtest from 209.38.225.232 port 41450
+Jun 29 08:42:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3122]: input_userauth_request: invalid user mailtest [preauth]
+Jun 29 08:42:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3122]: Received disconnect from 209.38.225.232 port 41450:11: Bye Bye [preauth]
+Jun 29 08:42:04 ip-172-31-42-240.eu-west-2.compute.internal sshd[3122]: Disconnected from 209.38.225.232 port 41450 [preauth]
+Jun 29 08:42:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3124]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:42:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3124]: Invalid user Redistoor from 201.248.90.19 port 58074
+Jun 29 08:42:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3124]: input_userauth_request: invalid user Redistoor [preauth]
+Jun 29 08:42:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3124]: Received disconnect from 201.248.90.19 port 58074:11: Bye Bye [preauth]
+Jun 29 08:42:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3124]: Disconnected from 201.248.90.19 port 58074 [preauth]
+Jun 29 08:42:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3126]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:42:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3126]: Invalid user shell from 68.183.145.59 port 39642
+Jun 29 08:42:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3126]: input_userauth_request: invalid user shell [preauth]
+Jun 29 08:42:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3126]: Received disconnect from 68.183.145.59 port 39642:11: Bye Bye [preauth]
+Jun 29 08:42:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3126]: Disconnected from 68.183.145.59 port 39642 [preauth]
+Jun 29 08:42:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3129]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:42:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3129]: Invalid user admin from 138.204.188.51 port 48622
+Jun 29 08:42:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3129]: input_userauth_request: invalid user admin [preauth]
+Jun 29 08:42:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3129]: Received disconnect from 138.204.188.51 port 48622:11: Bye Bye [preauth]
+Jun 29 08:42:27 ip-172-31-42-240.eu-west-2.compute.internal sshd[3129]: Disconnected from 138.204.188.51 port 48622 [preauth]
+Jun 29 08:42:35 ip-172-31-42-240.eu-west-2.compute.internal sshd[3131]: Received disconnect from 207.154.254.232 port 50952:11: Bye Bye [preauth]
+Jun 29 08:42:35 ip-172-31-42-240.eu-west-2.compute.internal sshd[3131]: Disconnected from 207.154.254.232 port 50952 [preauth]
+Jun 29 08:42:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[3133]: Received disconnect from 202.125.94.212 port 37234:11: Bye Bye [preauth]
+Jun 29 08:42:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[3133]: Disconnected from 202.125.94.212 port 37234 [preauth]
+Jun 29 08:42:43 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 122910ms.
+Jun 29 08:43:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[3136]: Invalid user full from 142.93.243.85 port 59652
+Jun 29 08:43:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[3136]: input_userauth_request: invalid user full [preauth]
+Jun 29 08:43:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[3136]: Received disconnect from 142.93.243.85 port 59652:11: Bye Bye [preauth]
+Jun 29 08:43:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[3136]: Disconnected from 142.93.243.85 port 59652 [preauth]
+Jun 29 08:43:08 ip-172-31-42-240.eu-west-2.compute.internal sshd[3138]: Invalid user vyos from 209.38.225.232 port 55636
+Jun 29 08:43:08 ip-172-31-42-240.eu-west-2.compute.internal sshd[3138]: input_userauth_request: invalid user vyos [preauth]
+Jun 29 08:43:08 ip-172-31-42-240.eu-west-2.compute.internal sshd[3138]: Received disconnect from 209.38.225.232 port 55636:11: Bye Bye [preauth]
+Jun 29 08:43:08 ip-172-31-42-240.eu-west-2.compute.internal sshd[3138]: Disconnected from 209.38.225.232 port 55636 [preauth]
+Jun 29 08:43:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3140]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:43:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3140]: Invalid user anjor from 68.183.145.59 port 35034
+Jun 29 08:43:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3140]: input_userauth_request: invalid user anjor [preauth]
+Jun 29 08:43:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3140]: Received disconnect from 68.183.145.59 port 35034:11: Bye Bye [preauth]
+Jun 29 08:43:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3140]: Disconnected from 68.183.145.59 port 35034 [preauth]
+Jun 29 08:43:43 ip-172-31-42-240.eu-west-2.compute.internal sshd[3144]: Invalid user alex from 207.154.254.232 port 60594
+Jun 29 08:43:43 ip-172-31-42-240.eu-west-2.compute.internal sshd[3144]: input_userauth_request: invalid user alex [preauth]
+Jun 29 08:43:43 ip-172-31-42-240.eu-west-2.compute.internal sshd[3144]: Received disconnect from 207.154.254.232 port 60594:11: Bye Bye [preauth]
+Jun 29 08:43:43 ip-172-31-42-240.eu-west-2.compute.internal sshd[3144]: Disconnected from 207.154.254.232 port 60594 [preauth]
+Jun 29 08:43:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3146]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:43:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3146]: Received disconnect from 201.248.90.19 port 58088:11: Bye Bye [preauth]
+Jun 29 08:43:44 ip-172-31-42-240.eu-west-2.compute.internal sshd[3146]: Disconnected from 201.248.90.19 port 58088 [preauth]
+Jun 29 08:43:49 ip-172-31-42-240.eu-west-2.compute.internal sshd[3149]: Received disconnect from 202.125.94.212 port 49277:11: Bye Bye [preauth]
+Jun 29 08:43:49 ip-172-31-42-240.eu-west-2.compute.internal sshd[3149]: Disconnected from 202.125.94.212 port 49277 [preauth]
+Jun 29 08:43:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3153]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:43:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3153]: Invalid user guest from 138.204.188.51 port 55880
+Jun 29 08:43:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[3153]: input_userauth_request: invalid user guest [preauth]
+Jun 29 08:43:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[3153]: Received disconnect from 138.204.188.51 port 55880:11: Bye Bye [preauth]
+Jun 29 08:43:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[3153]: Disconnected from 138.204.188.51 port 55880 [preauth]
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x20d16b11)
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: DHCPACK from 172.31.32.1 (xid=0x20d16b11)
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal NET[3177]: [1;39mdhclient: Locked /run/dhclient/resolv.lock[0m
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2875]: bound to 172.31.42.240 -- renewal in 1767 seconds.
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal ec2net[3196]: [1;39m[get_meta] Querying IMDS for meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal ec2net[3197]: [1;39m[get_meta] Getting token for IMDSv2.[0m
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal ec2net[3203]: [1;39m[get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/0a:bb:e3:ce:0e:0c/local-ipv4s[0m
+Jun 29 08:44:07 ip-172-31-42-240.eu-west-2.compute.internal ec2net[3213]: [1;39m[remove_aliases] Removing aliases of eth0[0m
+Jun 29 08:44:09 ip-172-31-42-240.eu-west-2.compute.internal sshd[3216]: Invalid user admin from 209.38.225.232 port 32984
+Jun 29 08:44:09 ip-172-31-42-240.eu-west-2.compute.internal sshd[3216]: input_userauth_request: invalid user admin [preauth]
+Jun 29 08:44:09 ip-172-31-42-240.eu-west-2.compute.internal sshd[3216]: Received disconnect from 209.38.225.232 port 32984:11: Bye Bye [preauth]
+Jun 29 08:44:09 ip-172-31-42-240.eu-west-2.compute.internal sshd[3216]: Disconnected from 209.38.225.232 port 32984 [preauth]
+Jun 29 08:44:15 ip-172-31-42-240.eu-west-2.compute.internal sshd[3219]: Received disconnect from 142.93.243.85 port 57772:11: Bye Bye [preauth]
+Jun 29 08:44:15 ip-172-31-42-240.eu-west-2.compute.internal sshd[3219]: Disconnected from 142.93.243.85 port 57772 [preauth]
+Jun 29 08:44:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3222]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:44:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3222]: Invalid user liubin from 68.183.145.59 port 58662
+Jun 29 08:44:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3222]: input_userauth_request: invalid user liubin [preauth]
+Jun 29 08:44:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3222]: Received disconnect from 68.183.145.59 port 58662:11: Bye Bye [preauth]
+Jun 29 08:44:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3222]: Disconnected from 68.183.145.59 port 58662 [preauth]
+Jun 29 08:44:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 113490ms.
+Jun 29 08:44:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[3229]: Received disconnect from 207.154.254.232 port 51802:11: Bye Bye [preauth]
+Jun 29 08:44:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[3229]: Disconnected from 207.154.254.232 port 51802 [preauth]
+Jun 29 08:45:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[3231]: Received disconnect from 202.125.94.212 port 33070:11: Bye Bye [preauth]
+Jun 29 08:45:03 ip-172-31-42-240.eu-west-2.compute.internal sshd[3231]: Disconnected from 202.125.94.212 port 33070 [preauth]
+Jun 29 08:45:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3233]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:45:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3233]: Invalid user credit from 201.248.90.19 port 58100
+Jun 29 08:45:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3233]: input_userauth_request: invalid user credit [preauth]
+Jun 29 08:45:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3233]: Received disconnect from 201.248.90.19 port 58100:11: Bye Bye [preauth]
+Jun 29 08:45:11 ip-172-31-42-240.eu-west-2.compute.internal sshd[3233]: Disconnected from 201.248.90.19 port 58100 [preauth]
+Jun 29 08:45:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[3235]: Invalid user ubuntu from 209.38.225.232 port 51138
+Jun 29 08:45:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[3235]: input_userauth_request: invalid user ubuntu [preauth]
+Jun 29 08:45:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[3235]: Received disconnect from 209.38.225.232 port 51138:11: Bye Bye [preauth]
+Jun 29 08:45:13 ip-172-31-42-240.eu-west-2.compute.internal sshd[3235]: Disconnected from 209.38.225.232 port 51138 [preauth]
+Jun 29 08:45:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3237]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:45:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3237]: Invalid user ubuntu from 138.204.188.51 port 36902
+Jun 29 08:45:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3237]: input_userauth_request: invalid user ubuntu [preauth]
+Jun 29 08:45:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3237]: Received disconnect from 138.204.188.51 port 36902:11: Bye Bye [preauth]
+Jun 29 08:45:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3237]: Disconnected from 138.204.188.51 port 36902 [preauth]
+Jun 29 08:45:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[3239]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:45:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[3239]: Invalid user doris from 68.183.145.59 port 54052
+Jun 29 08:45:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[3239]: input_userauth_request: invalid user doris [preauth]
+Jun 29 08:45:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[3239]: Received disconnect from 68.183.145.59 port 54052:11: Bye Bye [preauth]
+Jun 29 08:45:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[3239]: Disconnected from 68.183.145.59 port 54052 [preauth]
+Jun 29 08:45:39 ip-172-31-42-240.eu-west-2.compute.internal sshd[3241]: Invalid user credit from 142.93.243.85 port 55892
+Jun 29 08:45:39 ip-172-31-42-240.eu-west-2.compute.internal sshd[3241]: input_userauth_request: invalid user credit [preauth]
+Jun 29 08:45:39 ip-172-31-42-240.eu-west-2.compute.internal sshd[3241]: Received disconnect from 142.93.243.85 port 55892:11: Bye Bye [preauth]
+Jun 29 08:45:39 ip-172-31-42-240.eu-west-2.compute.internal sshd[3241]: Disconnected from 142.93.243.85 port 55892 [preauth]
+Jun 29 08:46:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[3244]: Invalid user shell from 207.154.254.232 port 36006
+Jun 29 08:46:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[3244]: input_userauth_request: invalid user shell [preauth]
+Jun 29 08:46:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[3244]: Received disconnect from 207.154.254.232 port 36006:11: Bye Bye [preauth]
+Jun 29 08:46:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[3244]: Disconnected from 207.154.254.232 port 36006 [preauth]
+Jun 29 08:46:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3247]: Received disconnect from 202.125.94.212 port 45137:11: Bye Bye [preauth]
+Jun 29 08:46:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3247]: Disconnected from 202.125.94.212 port 45137 [preauth]
+Jun 29 08:46:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[3249]: Invalid user squid from 209.38.225.232 port 36198
+Jun 29 08:46:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[3249]: input_userauth_request: invalid user squid [preauth]
+Jun 29 08:46:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[3249]: Received disconnect from 209.38.225.232 port 36198:11: Bye Bye [preauth]
+Jun 29 08:46:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[3249]: Disconnected from 209.38.225.232 port 36198 [preauth]
+Jun 29 08:46:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3252]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:46:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3252]: Invalid user ubuntu from 68.183.145.59 port 49450
+Jun 29 08:46:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3252]: input_userauth_request: invalid user ubuntu [preauth]
+Jun 29 08:46:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3252]: Received disconnect from 68.183.145.59 port 49450:11: Bye Bye [preauth]
+Jun 29 08:46:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3252]: Disconnected from 68.183.145.59 port 49450 [preauth]
+Jun 29 08:46:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[3254]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:46:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[3254]: Invalid user pippo from 201.248.90.19 port 58116
+Jun 29 08:46:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[3254]: input_userauth_request: invalid user pippo [preauth]
+Jun 29 08:46:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[3254]: Received disconnect from 201.248.90.19 port 58116:11: Bye Bye [preauth]
+Jun 29 08:46:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[3254]: Disconnected from 201.248.90.19 port 58116 [preauth]
+Jun 29 08:46:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 124070ms.
+Jun 29 08:46:50 ip-172-31-42-240.eu-west-2.compute.internal sshd[3256]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:46:50 ip-172-31-42-240.eu-west-2.compute.internal sshd[3256]: Invalid user liubin from 138.204.188.51 port 53410
+Jun 29 08:46:50 ip-172-31-42-240.eu-west-2.compute.internal sshd[3256]: input_userauth_request: invalid user liubin [preauth]
+Jun 29 08:46:50 ip-172-31-42-240.eu-west-2.compute.internal sshd[3256]: Received disconnect from 138.204.188.51 port 53410:11: Bye Bye [preauth]
+Jun 29 08:46:50 ip-172-31-42-240.eu-west-2.compute.internal sshd[3256]: Disconnected from 138.204.188.51 port 53410 [preauth]
+Jun 29 08:46:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3259]: Received disconnect from 142.93.243.85 port 54012:11: Bye Bye [preauth]
+Jun 29 08:46:56 ip-172-31-42-240.eu-west-2.compute.internal sshd[3259]: Disconnected from 142.93.243.85 port 54012 [preauth]
+Jun 29 08:47:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[3261]: Invalid user developer from 207.154.254.232 port 37468
+Jun 29 08:47:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[3261]: input_userauth_request: invalid user developer [preauth]
+Jun 29 08:47:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[3261]: Received disconnect from 207.154.254.232 port 37468:11: Bye Bye [preauth]
+Jun 29 08:47:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[3261]: Disconnected from 207.154.254.232 port 37468 [preauth]
+Jun 29 08:47:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3263]: Received disconnect from 209.38.225.232 port 35310:11: Bye Bye [preauth]
+Jun 29 08:47:21 ip-172-31-42-240.eu-west-2.compute.internal sshd[3263]: Disconnected from 209.38.225.232 port 35310 [preauth]
+Jun 29 08:47:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3265]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:47:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3265]: Invalid user cent from 68.183.145.59 port 44842
+Jun 29 08:47:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3265]: input_userauth_request: invalid user cent [preauth]
+Jun 29 08:47:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3265]: Received disconnect from 68.183.145.59 port 44842:11: Bye Bye [preauth]
+Jun 29 08:47:25 ip-172-31-42-240.eu-west-2.compute.internal sshd[3265]: Disconnected from 68.183.145.59 port 44842 [preauth]
+Jun 29 08:47:30 ip-172-31-42-240.eu-west-2.compute.internal sshd[3267]: Invalid user hdoop from 202.125.94.212 port 57166
+Jun 29 08:47:30 ip-172-31-42-240.eu-west-2.compute.internal sshd[3267]: input_userauth_request: invalid user hdoop [preauth]
+Jun 29 08:47:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[3267]: Received disconnect from 202.125.94.212 port 57166:11: Bye Bye [preauth]
+Jun 29 08:47:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[3267]: Disconnected from 202.125.94.212 port 57166 [preauth]
+Jun 29 08:47:59 ip-172-31-42-240.eu-west-2.compute.internal sshd[3271]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:48:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[3271]: Received disconnect from 201.248.90.19 port 58118:11: Bye Bye [preauth]
+Jun 29 08:48:00 ip-172-31-42-240.eu-west-2.compute.internal sshd[3271]: Disconnected from 201.248.90.19 port 58118 [preauth]
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3278]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3278]: Invalid user jordi from 138.204.188.51 port 36562
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3278]: input_userauth_request: invalid user jordi [preauth]
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3278]: Received disconnect from 138.204.188.51 port 36562:11: Bye Bye [preauth]
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3278]: Disconnected from 138.204.188.51 port 36562 [preauth]
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3281]: Received disconnect from 142.93.243.85 port 52136:11: Bye Bye [preauth]
+Jun 29 08:48:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[3281]: Disconnected from 142.93.243.85 port 52136 [preauth]
+Jun 29 08:48:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3433]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:48:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3433]: Received disconnect from 68.183.145.59 port 40238:11: Bye Bye [preauth]
+Jun 29 08:48:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[3433]: Disconnected from 68.183.145.59 port 40238 [preauth]
+Jun 29 08:48:29 ip-172-31-42-240.eu-west-2.compute.internal sshd[3637]: Received disconnect from 207.154.254.232 port 42266:11: Bye Bye [preauth]
+Jun 29 08:48:29 ip-172-31-42-240.eu-west-2.compute.internal sshd[3637]: Disconnected from 207.154.254.232 port 42266 [preauth]
+Jun 29 08:48:30 ip-172-31-42-240.eu-west-2.compute.internal sshd[3639]: Received disconnect from 209.38.225.232 port 44624:11: Bye Bye [preauth]
+Jun 29 08:48:30 ip-172-31-42-240.eu-west-2.compute.internal sshd[3639]: Disconnected from 209.38.225.232 port 44624 [preauth]
+Jun 29 08:48:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3971]: Received disconnect from 202.125.94.212 port 40970:11: Bye Bye [preauth]
+Jun 29 08:48:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[3971]: Disconnected from 202.125.94.212 port 40970 [preauth]
+Jun 29 08:48:43 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 123870ms.
+Jun 29 08:49:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[5074]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:49:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[5074]: Received disconnect from 68.183.145.59 port 35628:11: Bye Bye [preauth]
+Jun 29 08:49:20 ip-172-31-42-240.eu-west-2.compute.internal sshd[5074]: Disconnected from 68.183.145.59 port 35628 [preauth]
+Jun 29 08:49:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[5099]: reverse mapping checking getaddrinfo for 201-248-90-19.estatic.cantv.net [201.248.90.19] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:49:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[5099]: Invalid user sysadmin from 201.248.90.19 port 58120
+Jun 29 08:49:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[5099]: input_userauth_request: invalid user sysadmin [preauth]
+Jun 29 08:49:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[5099]: Received disconnect from 201.248.90.19 port 58120:11: Bye Bye [preauth]
+Jun 29 08:49:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[5099]: Disconnected from 201.248.90.19 port 58120 [preauth]
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal sudo[5306]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl restart nginx[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal sudo[5306]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal nginx[5311]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal nginx[5311]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:27 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:49:28 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:49:29 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal nginx[5318]: nginx: [emerg] still could not bind()
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mnginx.service: control process exited, code=exited status=1[0m
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;31mFailed to start The nginx HTTP and reverse proxy server.[0m
+-- Subject: Unit nginx.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has failed.
+-- 
+-- The result is failed.
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mUnit nginx.service entered failed state.[0m
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal sudo[5306]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:49:30 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: [1;39mnginx.service failed.[0m
+Jun 29 08:49:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[5391]: Invalid user cent from 209.38.225.232 port 46128
+Jun 29 08:49:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[5391]: input_userauth_request: invalid user cent [preauth]
+Jun 29 08:49:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[5391]: Received disconnect from 209.38.225.232 port 46128:11: Bye Bye [preauth]
+Jun 29 08:49:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[5391]: Disconnected from 209.38.225.232 port 46128 [preauth]
+Jun 29 08:49:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[5591]: Received disconnect from 142.93.243.85 port 50260:11: Bye Bye [preauth]
+Jun 29 08:49:37 ip-172-31-42-240.eu-west-2.compute.internal sshd[5591]: Disconnected from 142.93.243.85 port 50260 [preauth]
+Jun 29 08:49:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[5614]: Invalid user squid from 207.154.254.232 port 53102
+Jun 29 08:49:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[5614]: input_userauth_request: invalid user squid [preauth]
+Jun 29 08:49:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[5614]: Received disconnect from 207.154.254.232 port 53102:11: Bye Bye [preauth]
+Jun 29 08:49:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[5614]: Disconnected from 207.154.254.232 port 53102 [preauth]
+Jun 29 08:49:40 ip-172-31-42-240.eu-west-2.compute.internal sshd[5661]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:49:40 ip-172-31-42-240.eu-west-2.compute.internal sshd[5661]: Invalid user doris from 138.204.188.51 port 40730
+Jun 29 08:49:40 ip-172-31-42-240.eu-west-2.compute.internal sshd[5661]: input_userauth_request: invalid user doris [preauth]
+Jun 29 08:49:40 ip-172-31-42-240.eu-west-2.compute.internal sshd[5661]: Received disconnect from 138.204.188.51 port 40730:11: Bye Bye [preauth]
+Jun 29 08:49:40 ip-172-31-42-240.eu-west-2.compute.internal sshd[5661]: Disconnected from 138.204.188.51 port 40730 [preauth]
+Jun 29 08:49:49 ip-172-31-42-240.eu-west-2.compute.internal sshd[5808]: Connection reset by 205.210.31.24 port 58250 [preauth]
+Jun 29 08:49:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[6053]: Received disconnect from 202.125.94.212 port 52979:11: Bye Bye [preauth]
+Jun 29 08:49:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[6053]: Disconnected from 202.125.94.212 port 52979 [preauth]
+Jun 29 08:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24572 of user root.
+-- Subject: Unit session-24572.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24572.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:50:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[6263]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 08:50:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 08:50:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[6630]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/sbin/fuser -k 80/tcp[0m
+Jun 29 08:50:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[6630]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:50:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[6630]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:50:13 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: Removed session 24560.
+-- Subject: Session 24560 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 24560 has been terminated.
+Jun 29 08:50:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[6746]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:50:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[6746]: Invalid user squid from 68.183.145.59 port 59258
+Jun 29 08:50:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[6746]: input_userauth_request: invalid user squid [preauth]
+Jun 29 08:50:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[6746]: Received disconnect from 68.183.145.59 port 59258:11: Bye Bye [preauth]
+Jun 29 08:50:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[6746]: Disconnected from 68.183.145.59 port 59258 [preauth]
+Jun 29 08:50:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[6933]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/sbin/fuser -k 443/tcp[0m
+Jun 29 08:50:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[6933]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:50:24 ip-172-31-42-240.eu-west-2.compute.internal sudo[6933]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:50:33 ip-172-31-42-240.eu-west-2.compute.internal sshd[7199]: Received disconnect from 209.38.225.232 port 42540:11: Bye Bye [preauth]
+Jun 29 08:50:33 ip-172-31-42-240.eu-west-2.compute.internal sshd[7199]: Disconnected from 209.38.225.232 port 42540 [preauth]
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal sudo[7267]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/sbin/service nginx restart[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal sudo[7267]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal nginx[7283]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal nginx[7283]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started The nginx HTTP and reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:50:36 ip-172-31-42-240.eu-west-2.compute.internal sudo[7267]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:50:47 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 123680ms.
+Jun 29 08:50:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[7811]: Invalid user doris from 207.154.254.232 port 58158
+Jun 29 08:50:53 ip-172-31-42-240.eu-west-2.compute.internal sshd[7811]: input_userauth_request: invalid user doris [preauth]
+Jun 29 08:50:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[7811]: Received disconnect from 207.154.254.232 port 58158:11: Bye Bye [preauth]
+Jun 29 08:50:54 ip-172-31-42-240.eu-west-2.compute.internal sshd[7811]: Disconnected from 207.154.254.232 port 58158 [preauth]
+Jun 29 08:51:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[8152]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:51:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[8152]: Invalid user k from 138.204.188.51 port 55624
+Jun 29 08:51:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[8152]: input_userauth_request: invalid user k [preauth]
+Jun 29 08:51:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[8152]: Received disconnect from 138.204.188.51 port 55624:11: Bye Bye [preauth]
+Jun 29 08:51:07 ip-172-31-42-240.eu-west-2.compute.internal sshd[8152]: Disconnected from 138.204.188.51 port 55624 [preauth]
+Jun 29 08:51:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[8484]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:51:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[8484]: Received disconnect from 68.183.145.59 port 54650:11: Bye Bye [preauth]
+Jun 29 08:51:18 ip-172-31-42-240.eu-west-2.compute.internal sshd[8484]: Disconnected from 68.183.145.59 port 54650 [preauth]
+Jun 29 08:51:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[9080]: Invalid user usuario from 209.38.225.232 port 52990
+Jun 29 08:51:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[9080]: input_userauth_request: invalid user usuario [preauth]
+Jun 29 08:51:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[9080]: Received disconnect from 209.38.225.232 port 52990:11: Bye Bye [preauth]
+Jun 29 08:51:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[9080]: Disconnected from 209.38.225.232 port 52990 [preauth]
+Jun 29 08:52:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[9817]: Received disconnect from 207.154.254.232 port 43244:11: Bye Bye [preauth]
+Jun 29 08:52:05 ip-172-31-42-240.eu-west-2.compute.internal sshd[9817]: Disconnected from 207.154.254.232 port 43244 [preauth]
+Jun 29 08:52:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[10336]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:52:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[10336]: Invalid user guest from 68.183.145.59 port 50044
+Jun 29 08:52:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[10336]: input_userauth_request: invalid user guest [preauth]
+Jun 29 08:52:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[10336]: Received disconnect from 68.183.145.59 port 50044:11: Bye Bye [preauth]
+Jun 29 08:52:22 ip-172-31-42-240.eu-west-2.compute.internal sshd[10336]: Disconnected from 68.183.145.59 port 50044 [preauth]
+Jun 29 08:52:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[10470]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl stop nginx[0m
+Jun 29 08:52:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[10470]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:52:26 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopping The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun shutting down.
+Jun 29 08:52:26 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopped The nginx HTTP and reverse proxy server.
+-- Subject: Unit nginx.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished shutting down.
+Jun 29 08:52:26 ip-172-31-42-240.eu-west-2.compute.internal sudo[10470]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:52:37 ip-172-31-42-240.eu-west-2.compute.internal sudo[10795]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl start nginx[0m
+Jun 29 08:52:37 ip-172-31-42-240.eu-west-2.compute.internal sudo[10795]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal nginx[10814]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal nginx[10814]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started The nginx HTTP and reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sudo[10795]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[10776]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[10776]: Invalid user usuario from 138.204.188.51 port 39168
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[10776]: input_userauth_request: invalid user usuario [preauth]
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[10776]: Received disconnect from 138.204.188.51 port 39168:11: Bye Bye [preauth]
+Jun 29 08:52:38 ip-172-31-42-240.eu-west-2.compute.internal sshd[10776]: Disconnected from 138.204.188.51 port 39168 [preauth]
+Jun 29 08:52:48 ip-172-31-42-240.eu-west-2.compute.internal sshd[11090]: Invalid user myuser from 209.38.225.232 port 54282
+Jun 29 08:52:48 ip-172-31-42-240.eu-west-2.compute.internal sshd[11090]: input_userauth_request: invalid user myuser [preauth]
+Jun 29 08:52:48 ip-172-31-42-240.eu-west-2.compute.internal sshd[11090]: Received disconnect from 209.38.225.232 port 54282:11: Bye Bye [preauth]
+Jun 29 08:52:48 ip-172-31-42-240.eu-west-2.compute.internal sshd[11090]: Disconnected from 209.38.225.232 port 54282 [preauth]
+Jun 29 08:52:51 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 114660ms.
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[11819]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl restart nginx[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[11819]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopping The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun shutting down.
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Stopped The nginx HTTP and reverse proxy server.
+-- Subject: Unit nginx.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished shutting down.
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Starting The nginx HTTP and reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal nginx[11827]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal nginx[11827]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal kernel: [1;39mxfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)[0m
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started The nginx HTTP and reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 08:53:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[11819]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:53:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[12150]: Invalid user guest from 207.154.254.232 port 52310
+Jun 29 08:53:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[12150]: input_userauth_request: invalid user guest [preauth]
+Jun 29 08:53:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[12150]: Received disconnect from 207.154.254.232 port 52310:11: Bye Bye [preauth]
+Jun 29 08:53:24 ip-172-31-42-240.eu-west-2.compute.internal sshd[12150]: Disconnected from 207.154.254.232 port 52310 [preauth]
+Jun 29 08:53:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[12313]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:53:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[12313]: Received disconnect from 68.183.145.59 port 45436:11: Bye Bye [preauth]
+Jun 29 08:53:31 ip-172-31-42-240.eu-west-2.compute.internal sshd[12313]: Disconnected from 68.183.145.59 port 45436 [preauth]
+Jun 29 08:53:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[13094]: Invalid user etiq from 209.38.225.232 port 35956
+Jun 29 08:53:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[13094]: input_userauth_request: invalid user etiq [preauth]
+Jun 29 08:53:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[13094]: Received disconnect from 209.38.225.232 port 35956:11: Bye Bye [preauth]
+Jun 29 08:53:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[13094]: Disconnected from 209.38.225.232 port 35956 [preauth]
+Jun 29 08:54:46 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 110890ms.
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16494]: reverse mapping checking getaddrinfo for 138-204-188-51.dynamic.wstelecom.net [138.204.188.51] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16494]: Invalid user developer from 138.204.188.51 port 40286
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16494]: input_userauth_request: invalid user developer [preauth]
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16510]: Address 68.183.145.59 maps to bluediamond.dcclients.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16510]: Invalid user alex from 68.183.145.59 port 36218
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16510]: input_userauth_request: invalid user alex [preauth]
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16510]: Received disconnect from 68.183.145.59 port 36218:11: Bye Bye [preauth]
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16510]: Disconnected from 68.183.145.59 port 36218 [preauth]
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16494]: Received disconnect from 138.204.188.51 port 40286:11: Bye Bye [preauth]
+Jun 29 08:55:57 ip-172-31-42-240.eu-west-2.compute.internal sshd[16494]: Disconnected from 138.204.188.51 port 40286 [preauth]
+Jun 29 08:56:37 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 113780ms.
+Jun 29 08:58:06 ip-172-31-42-240.eu-west-2.compute.internal sudo[20232]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/nano /var/log/syslog[0m
+Jun 29 08:58:06 ip-172-31-42-240.eu-west-2.compute.internal sudo[20232]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:58:13 ip-172-31-42-240.eu-west-2.compute.internal sudo[20232]: pam_unix(sudo:session): session closed for user root
+Jun 29 08:58:31 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 118150ms.
+Jun 29 08:59:28 ip-172-31-42-240.eu-west-2.compute.internal sudo[22591]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/sbin/nginx -t[0m
+Jun 29 08:59:28 ip-172-31-42-240.eu-west-2.compute.internal sudo[22591]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 08:59:28 ip-172-31-42-240.eu-west-2.compute.internal sudo[22591]: pam_unix(sudo:session): session closed for user root
+Jun 29 09:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24573 of user root.
+-- Subject: Unit session-24573.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24573.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:00:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[23519]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 09:00:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 09:00:29 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 122530ms.
+Jun 29 09:00:47 ip-172-31-42-240.eu-west-2.compute.internal sshd[24836]: Did not receive identification string from 47.100.92.43 port 49770
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24574 of user root.
+-- Subject: Unit session-24574.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24574.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[25236]: (root) CMD (run-parts /etc/cron.hourly)
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[25243]: [1;39mstarting 0anacron[0m
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal run-parts(/etc/cron.hourly)[25253]: [1;39mfinished 0anacron[0m
+Jun 29 09:01:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 09:01:44 ip-172-31-42-240.eu-west-2.compute.internal sudo[26466]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl status nginx.service[0m
+Jun 29 09:01:44 ip-172-31-42-240.eu-west-2.compute.internal sudo[26466]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 09:01:44 ip-172-31-42-240.eu-west-2.compute.internal sudo[26466]: pam_unix(sudo:session): session closed for user root
+Jun 29 09:02:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[27175]: Invalid user ubnt from 220.170.156.63 port 44171
+Jun 29 09:02:14 ip-172-31-42-240.eu-west-2.compute.internal sshd[27175]: input_userauth_request: invalid user ubnt [preauth]
+Jun 29 09:02:16 ip-172-31-42-240.eu-west-2.compute.internal sshd[27175]: Connection closed by 220.170.156.63 port 44171 [preauth]
+Jun 29 09:02:32 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 117930ms.
+Jun 29 09:02:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[27975]: reverse mapping checking getaddrinfo for 172-245-34-156-host.colocrossing.com [172.245.34.156] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 09:02:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[27975]: Invalid user tina from 172.245.34.156 port 37732
+Jun 29 09:02:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[27975]: input_userauth_request: invalid user tina [preauth]
+Jun 29 09:02:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[27975]: Received disconnect from 172.245.34.156 port 37732:11: Bye Bye [preauth]
+Jun 29 09:02:36 ip-172-31-42-240.eu-west-2.compute.internal sshd[27975]: Disconnected from 172.245.34.156 port 37732 [preauth]
+Jun 29 09:04:30 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 129630ms.
+Jun 29 09:05:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[2369]: Received disconnect from 175.140.128.54 port 61886:11: disconnected by user
+Jun 29 09:05:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[2369]: Disconnected from 175.140.128.54 port 61886
+Jun 29 09:05:23 ip-172-31-42-240.eu-west-2.compute.internal sshd[2335]: pam_unix(sshd:session): session closed for user ec2-user
+Jun 29 09:05:23 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: Removed session 24568.
+-- Subject: Session 24568 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 24568 has been terminated.
+Jun 29 09:06:39 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 112960ms.
+Jun 29 09:07:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3649]: Accepted publickey for ec2-user from 175.140.128.54 port 63584 ssh2: ED25519 SHA256:PA1wTcY1LRa5Y2msBckVy1DD+Q4zqCfF1P2fdLuqASA
+Jun 29 09:07:17 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24575 of user ec2-user.
+-- Subject: Unit session-24575.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24575.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:07:17 ip-172-31-42-240.eu-west-2.compute.internal systemd-logind[2614]: New session 24575 of user ec2-user.
+-- Subject: A new session 24575 has been created for user ec2-user
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 24575 has been created for the user ec2-user.
+-- 
+-- The leading process of the session is 3649.
+Jun 29 09:07:17 ip-172-31-42-240.eu-west-2.compute.internal sshd[3649]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Jun 29 09:07:45 ip-172-31-42-240.eu-west-2.compute.internal sudo[4770]: [1;39mec2-user : TTY=pts/0 ; PWD=/home/ec2-user/website ; USER=root ; COMMAND=/bin/systemctl status nginx.service -l[0m
+Jun 29 09:07:45 ip-172-31-42-240.eu-west-2.compute.internal sudo[4770]: pam_unix(sudo:session): session opened for user root by ec2-user(uid=0)
+Jun 29 09:07:45 ip-172-31-42-240.eu-west-2.compute.internal sudo[4770]: pam_unix(sudo:session): session closed for user root
+Jun 29 09:08:32 ip-172-31-42-240.eu-west-2.compute.internal dhclient[2924]: XMT: Solicit on eth0, interval 114680ms.
+Jun 29 09:08:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[6405]: Invalid user testing from 15.204.216.157 port 52652
+Jun 29 09:08:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[6405]: input_userauth_request: invalid user testing [preauth]
+Jun 29 09:08:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[6405]: Received disconnect from 15.204.216.157 port 52652:11: Bye Bye [preauth]
+Jun 29 09:08:42 ip-172-31-42-240.eu-west-2.compute.internal sshd[6405]: Disconnected from 15.204.216.157 port 52652 [preauth]
+Jun 29 09:09:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[6943]: reverse mapping checking getaddrinfo for 172-245-34-156-host.colocrossing.com [172.245.34.156] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 09:09:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[6943]: Received disconnect from 172.245.34.156 port 32684:11: Bye Bye [preauth]
+Jun 29 09:09:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[6943]: Disconnected from 172.245.34.156 port 32684 [preauth]
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Created slice User Slice of root.
+-- Subject: Unit user-0.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Started Session 24576 of user root.
+-- Subject: Unit session-24576.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-24576.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal CROND[8708]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal systemd[1]: Removed slice User Slice of root.
+-- Subject: Unit user-0.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-0.slice has finished shutting down.
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[8663]: reverse mapping checking getaddrinfo for 172-245-34-156-host.colocrossing.com [172.245.34.156] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[8663]: Received disconnect from 172.245.34.156 port 55654:11: Bye Bye [preauth]
+Jun 29 09:10:01 ip-172-31-42-240.eu-west-2.compute.internal sshd[8663]: Disconnected from 172.245.34.156 port 55654 [preauth]
